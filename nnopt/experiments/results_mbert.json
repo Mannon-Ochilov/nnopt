@@ -1,0 +1,242 @@
+{
+  "/bert/encoder/layer.0/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3052,
+      "removed": 20,
+      "fraction": 0.006510416666666667,
+      "e_loc": 0.03891694171751851
+    },
+    "0.95": {
+      "groups": 2923,
+      "removed": 149,
+      "fraction": 0.048502604166666664,
+      "e_loc": 0.09467707148941598
+    },
+    "0.9": {
+      "groups": 2693,
+      "removed": 379,
+      "fraction": 0.12337239583333333,
+      "e_loc": 0.09562489360538902
+    }
+  },
+  "/bert/encoder/layer.1/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3069,
+      "removed": 3,
+      "fraction": 0.0009765625,
+      "e_loc": 0.07446571966280542
+    },
+    "0.95": {
+      "groups": 2972,
+      "removed": 100,
+      "fraction": 0.032552083333333336,
+      "e_loc": 0.10951021507021635
+    },
+    "0.9": {
+      "groups": 2746,
+      "removed": 326,
+      "fraction": 0.10611979166666667,
+      "e_loc": 0.13877755707837094
+    }
+  },
+  "/bert/encoder/layer.2/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3070,
+      "removed": 2,
+      "fraction": 0.0006510416666666666,
+      "e_loc": 0.045354489518682456
+    },
+    "0.95": {
+      "groups": 3017,
+      "removed": 55,
+      "fraction": 0.017903645833333332,
+      "e_loc": 0.14952936272598968
+    },
+    "0.9": {
+      "groups": 2773,
+      "removed": 299,
+      "fraction": 0.09733072916666667,
+      "e_loc": 0.22972157600800913
+    }
+  },
+  "/bert/encoder/layer.3/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3072,
+      "removed": 0,
+      "fraction": 0.0,
+      "e_loc": 0.0
+    },
+    "0.95": {
+      "groups": 3004,
+      "removed": 68,
+      "fraction": 0.022135416666666668,
+      "e_loc": 0.12136481699293958
+    },
+    "0.9": {
+      "groups": 2833,
+      "removed": 239,
+      "fraction": 0.07779947916666667,
+      "e_loc": 0.16823707339212726
+    }
+  },
+  "/bert/encoder/layer.4/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3070,
+      "removed": 2,
+      "fraction": 0.0006510416666666666,
+      "e_loc": 0.0033181706149582996
+    },
+    "0.95": {
+      "groups": 2988,
+      "removed": 84,
+      "fraction": 0.02734375,
+      "e_loc": 0.08697839079202592
+    },
+    "0.9": {
+      "groups": 2565,
+      "removed": 507,
+      "fraction": 0.1650390625,
+      "e_loc": 0.1894104097695972
+    }
+  },
+  "/bert/encoder/layer.5/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3072,
+      "removed": 0,
+      "fraction": 0.0,
+      "e_loc": 0.0
+    },
+    "0.95": {
+      "groups": 3057,
+      "removed": 15,
+      "fraction": 0.0048828125,
+      "e_loc": 0.024113242357996615
+    },
+    "0.9": {
+      "groups": 3001,
+      "removed": 71,
+      "fraction": 0.023111979166666668,
+      "e_loc": 0.08486311355711304
+    }
+  },
+  "/bert/encoder/layer.6/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3072,
+      "removed": 0,
+      "fraction": 0.0,
+      "e_loc": 0.0
+    },
+    "0.95": {
+      "groups": 3067,
+      "removed": 5,
+      "fraction": 0.0016276041666666667,
+      "e_loc": 0.01331593530280751
+    },
+    "0.9": {
+      "groups": 3032,
+      "removed": 40,
+      "fraction": 0.013020833333333334,
+      "e_loc": 0.041801999352777806
+    }
+  },
+  "/bert/encoder/layer.7/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3072,
+      "removed": 0,
+      "fraction": 0.0,
+      "e_loc": 0.0
+    },
+    "0.95": {
+      "groups": 3069,
+      "removed": 3,
+      "fraction": 0.0009765625,
+      "e_loc": 0.009293685678317943
+    },
+    "0.9": {
+      "groups": 2986,
+      "removed": 86,
+      "fraction": 0.027994791666666668,
+      "e_loc": 0.061257043516635856
+    }
+  },
+  "/bert/encoder/layer.8/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3072,
+      "removed": 0,
+      "fraction": 0.0,
+      "e_loc": 0.0
+    },
+    "0.95": {
+      "groups": 3069,
+      "removed": 3,
+      "fraction": 0.0009765625,
+      "e_loc": 0.010189127355752826
+    },
+    "0.9": {
+      "groups": 2990,
+      "removed": 82,
+      "fraction": 0.026692708333333332,
+      "e_loc": 0.05440170004924949
+    }
+  },
+  "/bert/encoder/layer.9/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3070,
+      "removed": 2,
+      "fraction": 0.0006510416666666666,
+      "e_loc": 0.0
+    },
+    "0.95": {
+      "groups": 3067,
+      "removed": 5,
+      "fraction": 0.0016276041666666667,
+      "e_loc": 0.013681044628693524
+    },
+    "0.9": {
+      "groups": 2968,
+      "removed": 104,
+      "fraction": 0.033854166666666664,
+      "e_loc": 0.0650976250104835
+    }
+  },
+  "/bert/encoder/layer.10/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3071,
+      "removed": 1,
+      "fraction": 0.0003255208333333333,
+      "e_loc": 0.0
+    },
+    "0.95": {
+      "groups": 3071,
+      "removed": 1,
+      "fraction": 0.0003255208333333333,
+      "e_loc": 0.0
+    },
+    "0.9": {
+      "groups": 2780,
+      "removed": 292,
+      "fraction": 0.09505208333333333,
+      "e_loc": 0.12393998266144565
+    }
+  },
+  "/bert/encoder/layer.11/output/dense/MatMul": {
+    "0.99": {
+      "groups": 3071,
+      "removed": 1,
+      "fraction": 0.0003255208333333333,
+      "e_loc": 0.026075833617614508
+    },
+    "0.95": {
+      "groups": 3056,
+      "removed": 16,
+      "fraction": 0.005208333333333333,
+      "e_loc": 0.039883967530994345
+    },
+    "0.9": {
+      "groups": 2442,
+      "removed": 630,
+      "fraction": 0.205078125,
+      "e_loc": 0.14805883468715098
+    }
+  }
+}

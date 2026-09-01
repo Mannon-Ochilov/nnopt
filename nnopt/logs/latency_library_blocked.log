@@ -1,0 +1,46 @@
+==============================================================================
+ENCODER LATENCY LIBRARY -- RUN 1, BLOCKED DESIGN
+==============================================================================
+source   : experiments/results_latency_library.json
+recorded : 2026-08-23 14:41
+machine  :
+           Intel Core i7-11850H (Tiger Lake H, 8C/16T)
+           L1d 48 KiB/core  L2 1.25 MiB/core  L3 24 MiB shared
+           64 GiB RAM, Windows 11, onnxruntime 1.28.0 CPUExecutionProvider
+           Python 3.12.8, numpy 2.4.6, torch 2.13.0+cpu, transformers 4.57.6
+protocol :
+           Each configuration measured to completion before moving to the
+           next (blocked by configuration), sessions cached between repeats.
+           Single thread. This is the run reported in Table 8 of the article.
+           Superseded by run 2; both are kept, see logs/latency_library_
+           interleaved.log for the difference and its cause.
+==============================================================================
+
+key      label                                          MiB         ms
+----------------------------------------------------------------------
+fp32     FP32 enkoder (nazorat nuqtasi)             1172.19   11985.74
+int8     ko'r-ko'rona INT8 (qisqartirishsiz)         299.80    8658.22
+t99      bizniki tau=0.99 (17%)                      266.97    6704.24
+t97      bizniki tau=0.97 (20%)                      260.97    6700.96
+t95      bizniki tau=0.95 (24%)                      254.37    6632.54
+t93      bizniki tau=0.93 (27%)                      247.57    6518.93
+mag30    ko'r-ko'rona magnitude 30%                  241.93    6473.26
+t90      bizniki tau=0.90 (33%)                      236.95    6479.56
+axis     o'q gibridi (kanal L0-5, rank L6+)          213.32    6335.89
+r45      kesh-majburiy 45%/qatlam                    213.03    6269.71
+r45b     kesh-majburiy 45% (uzluksiz tau bisektsi    213.03    6581.73
+mag50    ko'r-ko'rona magnitude 50%                  203.37    6197.87
+
+ratios against blind INT8 baseline (8658.2 ms):
+  fp32       0.72x
+  int8       1.00x
+  t99        1.29x
+  t97        1.29x
+  t95        1.31x
+  t93        1.33x
+  mag30      1.34x
+  t90        1.34x
+  axis       1.37x
+  r45        1.38x
+  r45b       1.32x
+  mag50      1.40x

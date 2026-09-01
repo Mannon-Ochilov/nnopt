@@ -1,0 +1,156 @@
+[
+  {
+    "variant": "enkoder FP32",
+    "kind": "encoder",
+    "path": "models/uzbek_stt_v1_onnx/encoder_model.onnx",
+    "mib": 1172.187879562378,
+    "ms_per_iter": 12044.442,
+    "iterations": 4,
+    "llc_load_misses_per_iter": 12280155.5,
+    "llc_load_hits_per_iter": 58112201.0,
+    "llc_all_misses_per_iter": 367836034.75,
+    "llc_load_miss_rate": 0.17445296777356786,
+    "raw_full": {
+      "MEM_LOAD_RETIRED.L3_MISS": 105294205,
+      "MEM_LOAD_RETIRED.L3_HIT": 349773437,
+      "LONGEST_LAT_CACHE.MISS": 2333870014
+    },
+    "raw_base": {
+      "MEM_LOAD_RETIRED.L3_MISS": 56173583,
+      "MEM_LOAD_RETIRED.L3_HIT": 117324633,
+      "LONGEST_LAT_CACHE.MISS": 862525875
+    }
+  },
+  {
+    "variant": "enkoder INT8 [300]",
+    "kind": "encoder",
+    "path": "models/_enc_v2/enc_int8.onnx",
+    "mib": 298.7399835586548,
+    "ms_per_iter": 7013.509,
+    "iterations": 7,
+    "llc_load_misses_per_iter": 15356447.0,
+    "llc_load_hits_per_iter": 43509135.0,
+    "llc_all_misses_per_iter": 203620394.14285713,
+    "llc_load_miss_rate": 0.260873102384344,
+    "raw_full": {
+      "MEM_LOAD_RETIRED.L3_MISS": 143760354,
+      "MEM_LOAD_RETIRED.L3_HIT": 395983139,
+      "LONGEST_LAT_CACHE.MISS": 1879356379
+    },
+    "raw_base": {
+      "MEM_LOAD_RETIRED.L3_MISS": 36265225,
+      "MEM_LOAD_RETIRED.L3_HIT": 91419194,
+      "LONGEST_LAT_CACHE.MISS": 454013620
+    }
+  },
+  {
+    "variant": "enkoder kaskad [267]",
+    "kind": "encoder",
+    "path": "models/_gptq/enc_gptq_pruned.onnx",
+    "mib": 266.9661407470703,
+    "ms_per_iter": 6768.391,
+    "iterations": 7,
+    "llc_load_misses_per_iter": 12619583.714285715,
+    "llc_load_hits_per_iter": 38279465.571428575,
+    "llc_all_misses_per_iter": 196363033.57142857,
+    "llc_load_miss_rate": 0.24793358405276975,
+    "raw_full": {
+      "MEM_LOAD_RETIRED.L3_MISS": 118149602,
+      "MEM_LOAD_RETIRED.L3_HIT": 348273122,
+      "LONGEST_LAT_CACHE.MISS": 1785553565
+    },
+    "raw_base": {
+      "MEM_LOAD_RETIRED.L3_MISS": 29812516,
+      "MEM_LOAD_RETIRED.L3_HIT": 80316863,
+      "LONGEST_LAT_CACHE.MISS": 411012330
+    }
+  },
+  {
+    "variant": "enkoder past-rank [203]",
+    "kind": "encoder",
+    "path": "models/_alloc/enc_greedy.onnx",
+    "mib": 202.64256763458252,
+    "ms_per_iter": 6391.695,
+    "iterations": 8,
+    "llc_load_misses_per_iter": 13962111.625,
+    "llc_load_hits_per_iter": 35119873.625,
+    "llc_all_misses_per_iter": 197030910.75,
+    "llc_load_miss_rate": 0.28446509557190336,
+    "raw_full": {
+      "MEM_LOAD_RETIRED.L3_MISS": 144360606,
+      "MEM_LOAD_RETIRED.L3_HIT": 353974319,
+      "LONGEST_LAT_CACHE.MISS": 1990959727
+    },
+    "raw_base": {
+      "MEM_LOAD_RETIRED.L3_MISS": 32663713,
+      "MEM_LOAD_RETIRED.L3_HIT": 73015330,
+      "LONGEST_LAT_CACHE.MISS": 414712441
+    }
+  },
+  {
+    "variant": "dekoder FP32",
+    "kind": "decoder",
+    "path": "models/uzbek_stt_v1_onnx/decoder_model.onnx",
+    "mib": 1742.6225118637085,
+    "ms_per_iter": 1509.751,
+    "iterations": 14,
+    "llc_load_misses_per_iter": 5477299.5,
+    "llc_load_hits_per_iter": 15017438.714285715,
+    "llc_all_misses_per_iter": 40694077.928571425,
+    "llc_load_miss_rate": 0.26725393819288146,
+    "raw_full": {
+      "MEM_LOAD_RETIRED.L3_MISS": 127103361,
+      "MEM_LOAD_RETIRED.L3_HIT": 251552815,
+      "LONGEST_LAT_CACHE.MISS": 838725161
+    },
+    "raw_base": {
+      "MEM_LOAD_RETIRED.L3_MISS": 50421168,
+      "MEM_LOAD_RETIRED.L3_HIT": 41308673,
+      "LONGEST_LAT_CACHE.MISS": 269008070
+    }
+  },
+  {
+    "variant": "dekoder INT8 [438]",
+    "kind": "decoder",
+    "path": "models/_whole_net/dec_int8.onnx",
+    "mib": 437.91060638427734,
+    "ms_per_iter": 458.54,
+    "iterations": 44,
+    "llc_load_misses_per_iter": 3865259.090909091,
+    "llc_load_hits_per_iter": 13043647.681818182,
+    "llc_all_misses_per_iter": 13032209.136363637,
+    "llc_load_miss_rate": 0.22859308072733878,
+    "raw_full": {
+      "MEM_LOAD_RETIRED.L3_MISS": 191480388,
+      "MEM_LOAD_RETIRED.L3_HIT": 611828457,
+      "LONGEST_LAT_CACHE.MISS": 650719521
+    },
+    "raw_base": {
+      "MEM_LOAD_RETIRED.L3_MISS": 21408988,
+      "MEM_LOAD_RETIRED.L3_HIT": 37907959,
+      "LONGEST_LAT_CACHE.MISS": 77302319
+    }
+  },
+  {
+    "variant": "dekoder INT8+past-rank [343]",
+    "kind": "decoder",
+    "path": "models/_lowrank_dec/dec_lr_int8.onnx",
+    "mib": 343.46126556396484,
+    "ms_per_iter": 449.349,
+    "iterations": 45,
+    "llc_load_misses_per_iter": 2811180.2,
+    "llc_load_hits_per_iter": 13269452.666666666,
+    "llc_all_misses_per_iter": 10158082.51111111,
+    "llc_load_miss_rate": 0.17481775893455404,
+    "raw_full": {
+      "MEM_LOAD_RETIRED.L3_MISS": 144060480,
+      "MEM_LOAD_RETIRED.L3_HIT": 633833077,
+      "LONGEST_LAT_CACHE.MISS": 534516035
+    },
+    "raw_base": {
+      "MEM_LOAD_RETIRED.L3_MISS": 17557371,
+      "MEM_LOAD_RETIRED.L3_HIT": 36707707,
+      "LONGEST_LAT_CACHE.MISS": 77402322
+    }
+  }
+]

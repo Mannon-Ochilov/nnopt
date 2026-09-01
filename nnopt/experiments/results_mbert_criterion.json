@@ -1,0 +1,110 @@
+[
+  {
+    "layer": 0,
+    "tau": 0.7,
+    "stage1_removed": 16,
+    "kosinus": 0.021076596170697154,
+    "ikki bosqichli": 0.04428272559455124,
+    "fluktuatsiya": 0.012932409296449562,
+    "rank": 0.01839489341535893
+  },
+  {
+    "layer": 1,
+    "tau": 0.7,
+    "stage1_removed": 3,
+    "kosinus": 0.051186884228482304,
+    "ikki bosqichli": 0.09045186135683243,
+    "fluktuatsiya": 0.037650283312838144,
+    "rank": 0.052115052287396726
+  },
+  {
+    "layer": 2,
+    "tau": 0.7,
+    "stage1_removed": 2,
+    "kosinus": 0.12328072202266831,
+    "ikki bosqichli": 0.10023789245987846,
+    "fluktuatsiya": 0.08675862747322403,
+    "rank": 0.11820874038316209
+  },
+  {
+    "layer": 3,
+    "tau": 0.7,
+    "stage1_removed": 0,
+    "kosinus": 0.13794862491697188,
+    "ikki bosqichli": 0.11223501741770844,
+    "fluktuatsiya": 0.11223501741770844,
+    "rank": 0.132170669352212
+  },
+  {
+    "layer": 4,
+    "tau": 0.7,
+    "stage1_removed": 1,
+    "kosinus": 0.16632917808843717,
+    "ikki bosqichli": 0.1377949819943697,
+    "fluktuatsiya": 0.1377949819943697,
+    "rank": 0.15366440067218934
+  },
+  {
+    "layer": 5,
+    "tau": 0.7,
+    "stage1_removed": 0,
+    "kosinus": 0.18893250312545848,
+    "ikki bosqichli": 0.15171999131191857,
+    "fluktuatsiya": 0.15171999131191857,
+    "rank": 0.17533306041564156
+  },
+  {
+    "layer": 6,
+    "tau": 0.7,
+    "stage1_removed": 0,
+    "kosinus": 0.19707049639701127,
+    "ikki bosqichli": 0.15814982234334582,
+    "fluktuatsiya": 0.15814982234334582,
+    "rank": 0.19177034093888692
+  },
+  {
+    "layer": 7,
+    "tau": 0.7,
+    "stage1_removed": 0,
+    "kosinus": 0.20035328206010367,
+    "ikki bosqichli": 0.15250281101226823,
+    "fluktuatsiya": 0.15250281101226823,
+    "rank": 0.20625509382174512
+  },
+  {
+    "layer": 8,
+    "tau": 0.7,
+    "stage1_removed": 0,
+    "kosinus": 0.18782328705447504,
+    "ikki bosqichli": 0.1344884677378725,
+    "fluktuatsiya": 0.1344884677378725,
+    "rank": 0.19615826031365918
+  },
+  {
+    "layer": 9,
+    "tau": 0.7,
+    "stage1_removed": 2,
+    "kosinus": 0.16775559870243065,
+    "ikki bosqichli": 0.1407716760365167,
+    "fluktuatsiya": 0.1407716760365167,
+    "rank": 0.2018271082461391
+  },
+  {
+    "layer": 10,
+    "tau": 0.7,
+    "stage1_removed": 1,
+    "kosinus": 0.17815162211084495,
+    "ikki bosqichli": 0.1515181279019011,
+    "fluktuatsiya": 0.1515181279019011,
+    "rank": 0.21351232977786846
+  },
+  {
+    "layer": 11,
+    "tau": 0.7,
+    "stage1_removed": 1,
+    "kosinus": 0.15125372254998995,
+    "ikki bosqichli": 0.12863931021836394,
+    "fluktuatsiya": 0.12611578021786765,
+    "rank": 0.17336993440791598
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "FP32": {
+    "ppl": 230.122,
+    "ms": 8948.6,
+    "mib": 13071,
+    "quantized_linears": 0
+  },
+  "REAL INT8 barcha Linear": {
+    "ppl": 2400.913,
+    "ms": 2441.3,
+    "mib": 3561,
+    "quantized_linears": -1
+  },
+  "A: FFN only": {
+    "ppl": 3521.4870337221773,
+    "ms": 4699.117900000147,
+    "mib": 6909.350852966309,
+    "quantized_linears": 78
+  },
+  "B: FFN + attention": {
+    "ppl": 2493.389600449823,
+    "ms": 2633.422800000062,
+    "mib": 3867.6807250976562,
+    "quantized_linears": 182
+  },
+  "C: faqat lm_head": {
+    "ppl": 235.3848122687483,
+    "ms": 8940.93729999986,
+    "mib": 12778.57181930542,
+    "quantized_linears": 1
+  },
+  "D: FFN + past-rank": {
+    "ppl": 6275.325081386616,
+    "ms": 4381.2723000000915,
+    "mib": 6164.265130996704,
+    "quantized_linears": 156
+  }
+}

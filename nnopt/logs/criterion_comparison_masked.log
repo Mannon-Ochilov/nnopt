@@ -1,0 +1,39 @@
+==============================================================================
+REMOVAL CRITERION COMPARISON -- mBERT, MASKED CALIBRATION (post-submission)
+==============================================================================
+source   : experiments/results_mbert_criterion_masked.json
+recorded : 2026-09-01 10:35
+machine  :
+           Intel Core i7-11850H (Tiger Lake H, 8C/16T)
+           L1d 48 KiB/core  L2 1.25 MiB/core  L3 24 MiB shared
+           64 GiB RAM, Windows 11, onnxruntime 1.28.0 CPUExecutionProvider
+           Python 3.12.8, numpy 2.4.6, torch 2.13.0+cpu, transformers 4.57.6
+protocol :
+           Re-measurement with the attention mask applied. Not the run the article quotes; see criterion_comparison.log for that one.
+           
+           Four arms at the same budget, scored on held-out text by relative
+           output error E_loc = ||Y - Y'|| / ||Y||. Lower is better.
+           kosinus        cosine grouping forced down to the budget
+           ikki bosqichli strict cosine, then fluctuation, then bias
+           fluktuatsiya   fluctuation only, then bias (FLAP-shaped)
+           rank           activation-aware low-rank at matched parameters
+           st1 is how many channels strict cosine (tau = 0.99) found before
+           the second stage ran.
+==============================================================================
+
+ layer    tau         kosinus  ikki bosqichli    fluktuatsiya            rank   st1
+------------------------------------------------------------------------------------
+    L0   0.50          0.0615          0.0501          0.0501          0.0697     0
+    L1   0.50          0.1311          0.1198          0.1198          0.1719     0
+    L2   0.50          0.1733          0.1497          0.1497          0.2013     0
+    L3   0.50          0.1784          0.1482          0.1482          0.1879     0
+    L4   0.70          0.1946          0.1769          0.1769          0.2128     0
+    L5   0.50          0.2111          0.1750          0.1750          0.2127     0
+    L6   0.50          0.2276          0.1826          0.1826          0.2380     0
+    L7   0.50          0.2187          0.1718          0.1718          0.2331     0
+    L8   0.70          0.1980          0.1484          0.1484          0.2113     0
+    L9   0.70          0.2031          0.1574          0.1574          0.1916     2
+   L10   0.70          0.2267          0.1838          0.1838          0.2150     1
+   L11   0.70          0.1039          0.0916          0.0827          0.1217     2
+------------------------------------------------------------------------------------
+         MEAN          0.1773          0.1463          0.1455          0.1889

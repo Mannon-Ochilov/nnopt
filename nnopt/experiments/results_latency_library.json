@@ -1,0 +1,74 @@
+{
+  "int8": {
+    "key": "int8",
+    "label": "ko'r-ko'rona INT8 (qisqartirishsiz)",
+    "ms": 8658.21959999812,
+    "mib": 299.7954034805298
+  },
+  "mag30": {
+    "key": "mag30",
+    "label": "ko'r-ko'rona magnitude 30%",
+    "ms": 6473.259950002102,
+    "mib": 241.93276977539062
+  },
+  "mag50": {
+    "key": "mag50",
+    "label": "ko'r-ko'rona magnitude 50%",
+    "ms": 6197.874099998444,
+    "mib": 203.3734359741211
+  },
+  "t99": {
+    "key": "t99",
+    "label": "bizniki tau=0.99 (17%)",
+    "ms": 6704.242349998822,
+    "mib": 266.9661407470703
+  },
+  "t97": {
+    "key": "t97",
+    "label": "bizniki tau=0.97 (20%)",
+    "ms": 6700.960300000588,
+    "mib": 260.965256690979
+  },
+  "t95": {
+    "key": "t95",
+    "label": "bizniki tau=0.95 (24%)",
+    "ms": 6632.538500001829,
+    "mib": 254.37194442749023
+  },
+  "t93": {
+    "key": "t93",
+    "label": "bizniki tau=0.93 (27%)",
+    "ms": 6518.925500004116,
+    "mib": 247.56873607635498
+  },
+  "t90": {
+    "key": "t90",
+    "label": "bizniki tau=0.90 (33%)",
+    "ms": 6479.564350000146,
+    "mib": 236.95000457763672
+  },
+  "r45": {
+    "key": "r45",
+    "label": "kesh-majburiy 45%/qatlam",
+    "ms": 6269.712749995961,
+    "mib": 213.02503967285156
+  },
+  "axis": {
+    "key": "axis",
+    "label": "o'q gibridi (kanal L0-5, rank L6+)",
+    "ms": 6335.889750000206,
+    "mib": 213.3220615386963
+  },
+  "fp32": {
+    "key": "fp32",
+    "label": "FP32 enkoder (nazorat nuqtasi)",
+    "ms": 11985.74279999957,
+    "mib": 1172.187879562378
+  },
+  "r45b": {
+    "key": "r45b",
+    "label": "kesh-majburiy 45% (uzluksiz tau bisektsiyasi)",
+    "ms": 6581.727600001614,
+    "mib": 213.02503967285156
+  }
+}

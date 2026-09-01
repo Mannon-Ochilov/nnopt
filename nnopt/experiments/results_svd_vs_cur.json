@@ -1,0 +1,3782 @@
+[
+  {
+    "name": "/model/decoder/layers.0/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.4299526168748178,
+      "svd_actaw": 0.23241861424940058,
+      "cur_func": 0.6755792192324908,
+      "cur_lev": 0.7028300689139715
+    },
+    "eloc_fit": {
+      "svd_actaw": 7.203368924789877e-08,
+      "cur_func": 0.6824194902024489
+    },
+    "werr": {
+      "svd_plain": 0.45142524358350866,
+      "svd_actaw": 0.5189528191282049,
+      "cur_func": 0.792097165934384,
+      "cur_lev": 0.7585512492349586
+    },
+    "secs": 10.921200275421143
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6104718839359575,
+      "svd_actaw": 0.3533922007456647,
+      "cur_func": 0.8079336859829414,
+      "cur_lev": 0.8147172856376463
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.010578459189055643,
+      "cur_func": 0.8147544600369689
+    },
+    "werr": {
+      "svd_plain": 0.6402568144869986,
+      "svd_actaw": 0.7845061088400779,
+      "cur_func": 0.9080516799322976,
+      "cur_lev": 0.8803665297781792
+    },
+    "secs": 11.461052417755127
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7558590568455232,
+      "svd_actaw": 0.4431777434844907,
+      "cur_func": 0.8880331502895508,
+      "cur_lev": 0.8919710275091628
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.2761901903905323,
+      "cur_func": 0.8933154449074133
+    },
+    "werr": {
+      "svd_plain": 0.7866342140623045,
+      "svd_actaw": 0.8780997844806128,
+      "cur_func": 0.9673670594824862,
+      "cur_lev": 0.9473362731959907
+    },
+    "secs": 10.992252588272095
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.4153197259381608,
+      "svd_actaw": 0.22021288075105327,
+      "cur_func": 0.6634623096325751,
+      "cur_lev": 0.705124644240678
+    },
+    "eloc_fit": {
+      "svd_actaw": 7.232278152484426e-08,
+      "cur_func": 0.6654614364232438
+    },
+    "werr": {
+      "svd_plain": 0.4275323334894385,
+      "svd_actaw": 0.4951266286756918,
+      "cur_func": 0.7726160637345074,
+      "cur_lev": 0.7501969272034085
+    },
+    "secs": 11.20072078704834
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5960799297013464,
+      "svd_actaw": 0.34512269111348787,
+      "cur_func": 0.7869519862741794,
+      "cur_lev": 0.8099454479183018
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.010297573833186597,
+      "cur_func": 0.7930840721494853
+    },
+    "werr": {
+      "svd_plain": 0.6185335878275844,
+      "svd_actaw": 0.7685743259186123,
+      "cur_func": 0.8954792705545359,
+      "cur_lev": 0.8748888424746627
+    },
+    "secs": 11.299441576004028
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7523494378786223,
+      "svd_actaw": 0.43429386357968314,
+      "cur_func": 0.8839410942667417,
+      "cur_lev": 0.8919355689948039
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.27068196752207224,
+      "cur_func": 0.8886660587978229
+    },
+    "werr": {
+      "svd_plain": 0.770558179430409,
+      "svd_actaw": 0.8652865857338574,
+      "cur_func": 0.9607400605130324,
+      "cur_lev": 0.948589535583819
+    },
+    "secs": 11.607247352600098
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5487267153528286,
+      "svd_actaw": 0.28677796603117783,
+      "cur_func": 0.78040901734008,
+      "cur_lev": 0.8580470625187072
+    },
+    "eloc_fit": {
+      "svd_actaw": 7.996257817265974e-08,
+      "cur_func": 0.7859422720453587
+    },
+    "werr": {
+      "svd_plain": 0.5497942115011584,
+      "svd_actaw": 0.615061909793005,
+      "cur_func": 0.869045919477227,
+      "cur_lev": 0.8477137196293082
+    },
+    "secs": 11.738396883010864
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7562446875884756,
+      "svd_actaw": 0.3982443338883896,
+      "cur_func": 0.8929378797293891,
+      "cur_lev": 0.9431515674584753
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.011793871214169449,
+      "cur_func": 0.8950175880143525
+    },
+    "werr": {
+      "svd_plain": 0.7498653273462378,
+      "svd_actaw": 0.8421005581150705,
+      "cur_func": 0.9522238699289942,
+      "cur_lev": 0.943275359417343
+    },
+    "secs": 11.621889352798462
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1016,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.8803529565203908,
+      "svd_actaw": 0.48877652064444094,
+      "cur_func": 0.9625272784495719,
+      "cur_lev": 0.9796843100250987
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.30714042077147213,
+      "cur_func": 0.9642407179488436
+    },
+    "werr": {
+      "svd_plain": 0.8708975580774363,
+      "svd_actaw": 0.9209866639962371,
+      "cur_func": 0.9865922993297325,
+      "cur_lev": 0.9827331784656692
+    },
+    "secs": 11.283336877822876
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 938,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5390077262001945,
+      "svd_actaw": 0.3344905917786552,
+      "cur_func": 0.6966132942413208,
+      "cur_lev": 0.7879577224740993
+    },
+    "eloc_fit": {
+      "svd_actaw": 7.655959410530553e-09,
+      "cur_func": 0.692305793484395
+    },
+    "werr": {
+      "svd_plain": 0.540180840879899,
+      "svd_actaw": 0.6081437605914415,
+      "cur_func": 2.006342896418907,
+      "cur_lev": 2.0010465300140954
+    },
+    "secs": 10.102526903152466
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 938,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.734184787186159,
+      "svd_actaw": 0.4592428310921046,
+      "cur_func": 0.8435171948947177,
+      "cur_lev": 0.8934309472813101
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.019926004186644593,
+      "cur_func": 0.8444491407717085
+    },
+    "werr": {
+      "svd_plain": 0.7455880389997711,
+      "svd_actaw": 0.8353603381427225,
+      "cur_func": 1.1812616247640546,
+      "cur_lev": 2.0421988201852903
+    },
+    "secs": 9.881491661071777
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 938,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.8610090707479764,
+      "svd_actaw": 0.5796709289969998,
+      "cur_func": 0.9215533258367883,
+      "cur_lev": 0.9615889799577624
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.3220592362861817,
+      "cur_func": 0.9226920407696207
+    },
+    "werr": {
+      "svd_plain": 0.8684606099200515,
+      "svd_actaw": 0.9183310901303057,
+      "cur_func": 1.098923447894024,
+      "cur_lev": 2.060334847144056
+    },
+    "secs": 9.881581783294678
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1023,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.13312001969258003,
+      "svd_actaw": 0.06229104812623932,
+      "cur_func": 0.35598209174786616,
+      "cur_lev": 0.5244661583980159
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.0553184840214151e-08,
+      "cur_func": 0.35444056967518905
+    },
+    "werr": {
+      "svd_plain": 0.11972052443606418,
+      "svd_actaw": 0.15901136341642905,
+      "cur_func": 0.3992674669968283,
+      "cur_lev": 0.47800097088914023
+    },
+    "secs": 11.537472009658813
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1023,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.34476263903080123,
+      "svd_actaw": 0.19296478534884878,
+      "cur_func": 0.6005431706943972,
+      "cur_lev": 0.749641658329506
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.007008604619872852,
+      "cur_func": 0.6019660335114145
+    },
+    "werr": {
+      "svd_plain": 0.31514614556212933,
+      "svd_actaw": 0.4896726686199608,
+      "cur_func": 0.6513726913584521,
+      "cur_lev": 0.7276140694164255
+    },
+    "secs": 10.998592615127563
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1023,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5866103606476097,
+      "svd_actaw": 0.3191203404229987,
+      "cur_func": 0.7948669782328968,
+      "cur_lev": 0.9159836121927936
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.16637851429257927,
+      "cur_func": 0.7945457196748698
+    },
+    "werr": {
+      "svd_plain": 0.5443107495431202,
+      "svd_actaw": 0.6829989319163421,
+      "cur_func": 0.83946332571205,
+      "cur_lev": 0.8977966169231253
+    },
+    "secs": 11.103422403335571
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.22803997860746453,
+      "svd_actaw": 0.10792643740735494,
+      "cur_func": 0.3927806037123826,
+      "cur_lev": 0.745222445522199
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.02003461295891596,
+      "cur_func": 0.44731822676283317
+    },
+    "werr": {
+      "svd_plain": 0.19390283690997176,
+      "svd_actaw": 0.3159193460611895,
+      "cur_func": 0.5420932922381516,
+      "cur_lev": 0.6179604269710336
+    },
+    "secs": 17.151164531707764
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.44723819488924343,
+      "svd_actaw": 0.2419019932984649,
+      "cur_func": 0.5698369568950881,
+      "cur_lev": 0.8829873192483816
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.08039274478319258,
+      "cur_func": 0.6495616103078444
+    },
+    "werr": {
+      "svd_plain": 0.43262322785030194,
+      "svd_actaw": 0.5683101586805622,
+      "cur_func": 0.7687656824977455,
+      "cur_lev": 0.8120027547677312
+    },
+    "secs": 18.827780961990356
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.6481627123014118,
+      "svd_actaw": 0.35677872333538474,
+      "cur_func": 0.7530212692579717,
+      "cur_lev": 0.9391791510832148
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.188390665680675,
+      "cur_func": 0.7830582907409092
+    },
+    "werr": {
+      "svd_plain": 0.6516609749782339,
+      "svd_actaw": 0.7690068461153662,
+      "cur_func": 0.9007145794204071,
+      "cur_lev": 0.9158906462957683
+    },
+    "secs": 18.051254272460938
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.43721010643228825,
+      "svd_actaw": 0.19021921002377915,
+      "cur_func": 0.6108504940387761,
+      "cur_lev": 0.8599073965161788
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.035468214043186,
+      "cur_func": 0.6472231206535969
+    },
+    "werr": {
+      "svd_plain": 0.4113470338304825,
+      "svd_actaw": 0.5652833182130764,
+      "cur_func": 0.762016315458269,
+      "cur_lev": 0.7606125960285497
+    },
+    "secs": 18.75023055076599
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.6244653560122287,
+      "svd_actaw": 0.28646358522946136,
+      "cur_func": 0.7175132616231725,
+      "cur_lev": 0.940843245876759
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.10177904084543937,
+      "cur_func": 0.7708187494360674
+    },
+    "werr": {
+      "svd_plain": 0.6096712078109525,
+      "svd_actaw": 0.7409837398243678,
+      "cur_func": 0.8980220266296611,
+      "cur_lev": 0.8792968407081031
+    },
+    "secs": 19.06583833694458
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.8060095925287516,
+      "svd_actaw": 0.4120686657223728,
+      "cur_func": 0.8774191951990619,
+      "cur_lev": 0.9990858733519654
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.20635073631340012,
+      "cur_func": 0.8841272151573688
+    },
+    "werr": {
+      "svd_plain": 0.7684907454434878,
+      "svd_actaw": 0.8697341529240711,
+      "cur_func": 0.9642706707292283,
+      "cur_lev": 0.946249906662274
+    },
+    "secs": 18.382582664489746
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 838,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.4371789968923853,
+      "svd_actaw": 0.13765028883772126,
+      "cur_func": 0.5430909741188609,
+      "cur_lev": 0.5721958329583823
+    },
+    "eloc_fit": {
+      "svd_actaw": 9.545591855520961e-08,
+      "cur_func": 0.4915632795208635
+    },
+    "werr": {
+      "svd_plain": 0.4254426827001143,
+      "svd_actaw": 0.516659144724517,
+      "cur_func": 0.8405548336568618,
+      "cur_lev": 0.8347153483580351
+    },
+    "secs": 9.706376552581787
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 838,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6077563784907457,
+      "svd_actaw": 0.2103950369856092,
+      "cur_func": 0.6396534117594214,
+      "cur_lev": 0.6653601813540568
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.00859773283515199,
+      "cur_func": 0.6093870218310783
+    },
+    "werr": {
+      "svd_plain": 0.6210064453507413,
+      "svd_actaw": 0.7634179485239839,
+      "cur_func": 0.9230525288203896,
+      "cur_lev": 0.9160330113526558
+    },
+    "secs": 11.97377061843872
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 838,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7500023343740595,
+      "svd_actaw": 0.26113057616090507,
+      "cur_func": 0.7590902312861482,
+      "cur_lev": 0.8274766872456769
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.04755389491194913,
+      "cur_func": 0.7435918105870682
+    },
+    "werr": {
+      "svd_plain": 0.7737873197534163,
+      "svd_actaw": 0.8751249770500272,
+      "cur_func": 0.9714888951872226,
+      "cur_lev": 0.9651836964534066
+    },
+    "secs": 11.144539833068848
+  },
+  {
+    "name": "/model/decoder/layers.0/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 409,
+    "rank_cur": 381,
+    "n_groups": 1005,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.018552297032348238,
+      "svd_actaw": 0.012499650643189355,
+      "cur_func": 0.1435024738684732,
+      "cur_lev": 0.19532835332092396
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.6703148591368814e-09,
+      "cur_func": 0.1392414261939028
+    },
+    "werr": {
+      "svd_plain": 0.21804908551079472,
+      "svd_actaw": 0.23203824795457656,
+      "cur_func": 0.5959507154401048,
+      "cur_lev": 0.5713739845468039
+    },
+    "secs": 31.351380109786987
+  },
+  {
+    "name": "/model/decoder/layers.0/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 215,
+    "rank_cur": 206,
+    "n_groups": 1005,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.09251183330133961,
+      "svd_actaw": 0.0759162181288532,
+      "cur_func": 0.27435503441064046,
+      "cur_lev": 0.37085164432436374
+    },
+    "eloc_fit": {
+      "svd_actaw": 4.641558689325519e-09,
+      "cur_func": 0.26893195927682306
+    },
+    "werr": {
+      "svd_plain": 0.5168697268260657,
+      "svd_actaw": 0.591121104038494,
+      "cur_func": 0.8218182896094639,
+      "cur_lev": 0.8084693960316174
+    },
+    "secs": 29.945327758789062
+  },
+  {
+    "name": "/model/decoder/layers.0/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 102,
+    "rank_cur": 100,
+    "n_groups": 1005,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.15683738191915977,
+      "svd_actaw": 0.12153497811222225,
+      "cur_func": 0.4250948195221283,
+      "cur_lev": 0.5216902222833747
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.026283490430508597,
+      "cur_func": 0.42042105787474815
+    },
+    "werr": {
+      "svd_plain": 0.7387887689369798,
+      "svd_actaw": 0.8009414963155528,
+      "cur_func": 0.9373563355467641,
+      "cur_lev": 0.9298779652754432
+    },
+    "secs": 28.9949631690979
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.2929658785858943,
+      "svd_actaw": 0.22219274722544513,
+      "cur_func": 0.5689449237017108,
+      "cur_lev": 0.7132924838025448
+    },
+    "eloc_fit": {
+      "svd_actaw": 9.864655316980221e-08,
+      "cur_func": 0.5575166946970235
+    },
+    "werr": {
+      "svd_plain": 0.29302839029278366,
+      "svd_actaw": 0.37483330279199806,
+      "cur_func": 0.634954058819426,
+      "cur_lev": 0.6778442679017188
+    },
+    "secs": 15.102134943008423
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.48983274308711366,
+      "svd_actaw": 0.4020628720312177,
+      "cur_func": 0.7419968342744881,
+      "cur_lev": 0.8433861051495519
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.05950435653266022,
+      "cur_func": 0.7322713375084146
+    },
+    "werr": {
+      "svd_plain": 0.49138305478215516,
+      "svd_actaw": 0.6628752630287159,
+      "cur_func": 0.8117740814914367,
+      "cur_lev": 0.8251142333589269
+    },
+    "secs": 14.531787157058716
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6802823372086831,
+      "svd_actaw": 0.5220367224467657,
+      "cur_func": 0.8759845579520176,
+      "cur_lev": 0.9481451491829134
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.28652457472211573,
+      "cur_func": 0.870562406770953
+    },
+    "werr": {
+      "svd_plain": 0.6813093992814689,
+      "svd_actaw": 0.7968200602748167,
+      "cur_func": 0.9206268268341065,
+      "cur_lev": 0.9291766785317874
+    },
+    "secs": 14.232781410217285
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.28700539263831537,
+      "svd_actaw": 0.22190962479434476,
+      "cur_func": 0.5623482591691704,
+      "cur_lev": 0.7004578893093619
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.131125576831083e-07,
+      "cur_func": 0.5578775186229274
+    },
+    "werr": {
+      "svd_plain": 0.29471925700304724,
+      "svd_actaw": 0.3790105929650997,
+      "cur_func": 0.640079936746431,
+      "cur_lev": 0.6744880766860372
+    },
+    "secs": 14.156546354293823
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.4989967062726595,
+      "svd_actaw": 0.40149488886430307,
+      "cur_func": 0.7511939349103729,
+      "cur_lev": 0.840238105582268
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.060604718366391724,
+      "cur_func": 0.7544973383586313
+    },
+    "werr": {
+      "svd_plain": 0.5003162065557725,
+      "svd_actaw": 0.6702904690050197,
+      "cur_func": 0.8151493166953364,
+      "cur_lev": 0.8234413530624041
+    },
+    "secs": 14.497710227966309
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6961271893878948,
+      "svd_actaw": 0.5247358438365676,
+      "cur_func": 0.8797233059867431,
+      "cur_lev": 0.934479575557159
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.2899546874209179,
+      "cur_func": 0.8748165602379139
+    },
+    "werr": {
+      "svd_plain": 0.6909374357243179,
+      "svd_actaw": 0.8059193973002534,
+      "cur_func": 0.9167336432203159,
+      "cur_lev": 0.9185951529819243
+    },
+    "secs": 14.004453420639038
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.43953018677259315,
+      "svd_actaw": 0.298232294072289,
+      "cur_func": 0.6950894761335504,
+      "cur_lev": 0.7434585384157367
+    },
+    "eloc_fit": {
+      "svd_actaw": 9.469350004981947e-08,
+      "cur_func": 0.696527177232436
+    },
+    "werr": {
+      "svd_plain": 0.4390102359768796,
+      "svd_actaw": 0.5323624880442511,
+      "cur_func": 0.7834793682514704,
+      "cur_lev": 0.7938090162071507
+    },
+    "secs": 14.375162839889526
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6318034563926558,
+      "svd_actaw": 0.44877392294434515,
+      "cur_func": 0.835104818462252,
+      "cur_lev": 0.9014955301346871
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.07150409944508208,
+      "cur_func": 0.8362085636458431
+    },
+    "werr": {
+      "svd_plain": 0.6310616018275241,
+      "svd_actaw": 0.7785866400026346,
+      "cur_func": 0.9059142408623938,
+      "cur_lev": 0.8932016208987741
+    },
+    "secs": 16.163163661956787
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1021,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7890827615479238,
+      "svd_actaw": 0.5463684200892376,
+      "cur_func": 0.9260167320305117,
+      "cur_lev": 0.9659457169100462
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.3132175864198585,
+      "cur_func": 0.9279814609370123
+    },
+    "werr": {
+      "svd_plain": 0.7846753627634804,
+      "svd_actaw": 0.8786812059012387,
+      "cur_func": 0.9704637561517353,
+      "cur_lev": 0.9583611948721537
+    },
+    "secs": 16.27323341369629
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1003,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.43774324986818547,
+      "svd_actaw": 0.30254245092357224,
+      "cur_func": 0.6446011173367276,
+      "cur_lev": 0.7699478727663157
+    },
+    "eloc_fit": {
+      "svd_actaw": 5.135332324903294e-08,
+      "cur_func": 0.6288874174490987
+    },
+    "werr": {
+      "svd_plain": 0.44125802802809344,
+      "svd_actaw": 0.5356653080699277,
+      "cur_func": 0.7976086817618729,
+      "cur_lev": 0.779479166045074
+    },
+    "secs": 16.750911235809326
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1003,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6308543361747275,
+      "svd_actaw": 0.46518839384686284,
+      "cur_func": 0.8062403537167712,
+      "cur_lev": 0.8882352612653173
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.045952964682292693,
+      "cur_func": 0.7901433788281413
+    },
+    "werr": {
+      "svd_plain": 0.6349520806652638,
+      "svd_actaw": 0.7807615975229775,
+      "cur_func": 0.903851831417195,
+      "cur_lev": 0.8895170346354867
+    },
+    "secs": 16.232311964035034
+  },
+  {
+    "name": "/model/decoder/layers.6/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1003,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7853991429798705,
+      "svd_actaw": 0.6126597676510278,
+      "cur_func": 0.9146567485250287,
+      "cur_lev": 0.9564385760419922
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.2344885239952609,
+      "cur_func": 0.9089401577753845
+    },
+    "werr": {
+      "svd_plain": 0.7924345130130512,
+      "svd_actaw": 0.885564436500168,
+      "cur_func": 0.9647271154319457,
+      "cur_lev": 0.9561494529288933
+    },
+    "secs": 16.54311466217041
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.1318544098409283,
+      "svd_actaw": 0.12318795046276616,
+      "cur_func": 0.45064523675420826,
+      "cur_lev": 0.5606538256571948
+    },
+    "eloc_fit": {
+      "svd_actaw": 8.845955023506053e-08,
+      "cur_func": 0.4373239032308685
+    },
+    "werr": {
+      "svd_plain": 0.1261765038738809,
+      "svd_actaw": 0.18615607797032438,
+      "cur_func": 0.479006265253043,
+      "cur_lev": 0.5629292305938984
+    },
+    "secs": 17.038806200027466
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.3894769515445675,
+      "svd_actaw": 0.3518369206829554,
+      "cur_func": 0.6797671833650195,
+      "cur_lev": 0.7815608198947236
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.05013696305562206,
+      "cur_func": 0.6682373096018657
+    },
+    "werr": {
+      "svd_plain": 0.37277761915699803,
+      "svd_actaw": 0.5330241942382209,
+      "cur_func": 0.7056352815128883,
+      "cur_lev": 0.7687480804725855
+    },
+    "secs": 16.597673177719116
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6172021873095732,
+      "svd_actaw": 0.5138443135085953,
+      "cur_func": 0.8393544282057506,
+      "cur_lev": 0.9188129773036328
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.27025590441078284,
+      "cur_func": 0.8306811379512774
+    },
+    "werr": {
+      "svd_plain": 0.5986780119304334,
+      "svd_actaw": 0.7176661801643192,
+      "cur_func": 0.8570310348554115,
+      "cur_lev": 0.9142721505098844
+    },
+    "secs": 15.296467781066895
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.13899539284435286,
+      "svd_actaw": 0.07500935205177972,
+      "cur_func": 0.3165602836094093,
+      "cur_lev": 0.5134155043271276
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.01410210817812299,
+      "cur_func": 0.3909044355061635
+    },
+    "werr": {
+      "svd_plain": 0.13820212424646175,
+      "svd_actaw": 0.244171476403888,
+      "cur_func": 0.5379761517706189,
+      "cur_lev": 0.5498641198181079
+    },
+    "secs": 22.766846656799316
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.3542061141887592,
+      "svd_actaw": 0.1961435699569505,
+      "cur_func": 0.5133492328480497,
+      "cur_lev": 0.7227548146899108
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.06981972398321472,
+      "cur_func": 0.5986737881262381
+    },
+    "werr": {
+      "svd_plain": 0.40827844353530945,
+      "svd_actaw": 0.537749341591452,
+      "cur_func": 0.7524740948061484,
+      "cur_lev": 0.7647875540857708
+    },
+    "secs": 23.39528203010559
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.5519226182254167,
+      "svd_actaw": 0.3195465216735691,
+      "cur_func": 0.7145384209825806,
+      "cur_lev": 0.9588413471370052
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.1739665793745839,
+      "cur_func": 0.7437778671279053
+    },
+    "werr": {
+      "svd_plain": 0.647502211572588,
+      "svd_actaw": 0.7604079859692036,
+      "cur_func": 0.8902313427103902,
+      "cur_lev": 0.917317657514211
+    },
+    "secs": 22.827961921691895
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.3173319804129199,
+      "svd_actaw": 0.13911946051929341,
+      "cur_func": 0.5269387459332644,
+      "cur_lev": 0.6154336396738692
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.03126515141305321,
+      "cur_func": 0.6141776432821414
+    },
+    "werr": {
+      "svd_plain": 0.40064640069967605,
+      "svd_actaw": 0.5554127024649658,
+      "cur_func": 0.7595297703957635,
+      "cur_lev": 0.7559666895060573
+    },
+    "secs": 21.47995400428772
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.5227817927244442,
+      "svd_actaw": 0.22322403383325945,
+      "cur_func": 0.6414211783972423,
+      "cur_lev": 0.7333790795308844
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.0922737416310549,
+      "cur_func": 0.7376070672713118
+    },
+    "werr": {
+      "svd_plain": 0.6097744876359534,
+      "svd_actaw": 0.7414038681219964,
+      "cur_func": 0.8958396645027696,
+      "cur_lev": 0.8867118633995973
+    },
+    "secs": 22.946282863616943
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.6977704543056434,
+      "svd_actaw": 0.33310975304517476,
+      "cur_func": 0.7184160166796696,
+      "cur_lev": 0.8047715595075192
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.18787788814278636,
+      "cur_func": 0.8394791475579038
+    },
+    "werr": {
+      "svd_plain": 0.7751940229471601,
+      "svd_actaw": 0.8713410320805768,
+      "cur_func": 0.9651444112265825,
+      "cur_lev": 0.9537924552219901
+    },
+    "secs": 24.416831731796265
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 945,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.4326986549014847,
+      "svd_actaw": 0.1366968714853388,
+      "cur_func": 0.572839786425522,
+      "cur_lev": 0.7816315420766472
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.9804495568596868e-08,
+      "cur_func": 0.5645217816873652
+    },
+    "werr": {
+      "svd_plain": 0.4276814199472161,
+      "svd_actaw": 0.5235236431999283,
+      "cur_func": 0.8026701437190812,
+      "cur_lev": 0.7961338347520331
+    },
+    "secs": 16.43813681602478
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 945,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6444486376330567,
+      "svd_actaw": 0.2259262877379885,
+      "cur_func": 0.7121822296020344,
+      "cur_lev": 0.9059144118108381
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.02455479840971117,
+      "cur_func": 0.7127233273605015
+    },
+    "werr": {
+      "svd_plain": 0.6371756341284173,
+      "svd_actaw": 0.778964071645516,
+      "cur_func": 0.9143834129352804,
+      "cur_lev": 0.9070558158831378
+    },
+    "secs": 17.137287139892578
+  },
+  {
+    "name": "/model/decoder/layers.6/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 945,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7981607322653972,
+      "svd_actaw": 0.3888782624893094,
+      "cur_func": 0.8335631825091352,
+      "cur_lev": 0.9631372796960094
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.13052831778554178,
+      "cur_func": 0.8293138931115078
+    },
+    "werr": {
+      "svd_plain": 0.796526758715902,
+      "svd_actaw": 0.8892552081420623,
+      "cur_func": 0.9696932239225327,
+      "cur_lev": 0.9645595452674085
+    },
+    "secs": 15.10214614868164
+  },
+  {
+    "name": "/model/decoder/layers.6/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 409,
+    "rank_cur": 381,
+    "n_groups": 1019,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.063872752837421,
+      "svd_actaw": 0.054075708589225856,
+      "cur_func": 0.2371742557606533,
+      "cur_lev": 0.3506120912179297
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.0239545774204866e-08,
+      "cur_func": 0.2337001297529895
+    },
+    "werr": {
+      "svd_plain": 0.42061064292529565,
+      "svd_actaw": 0.4503757332453561,
+      "cur_func": 0.7824224289979502,
+      "cur_lev": 0.7534071152709411
+    },
+    "secs": 33.73291492462158
+  },
+  {
+    "name": "/model/decoder/layers.6/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 215,
+    "rank_cur": 206,
+    "n_groups": 1019,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.10013585643812833,
+      "svd_actaw": 0.09401158353137798,
+      "cur_func": 0.33098261436204973,
+      "cur_lev": 0.5707219215645917
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.898584334143498e-08,
+      "cur_func": 0.32979610345522425
+    },
+    "werr": {
+      "svd_plain": 0.5976670319594171,
+      "svd_actaw": 0.6662108651124014,
+      "cur_func": 0.8870611673807532,
+      "cur_lev": 0.8757672815810754
+    },
+    "secs": 38.336702823638916
+  },
+  {
+    "name": "/model/decoder/layers.6/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 102,
+    "rank_cur": 100,
+    "n_groups": 1019,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.13751449419186376,
+      "svd_actaw": 0.13465322828465698,
+      "cur_func": 0.48111224091832194,
+      "cur_lev": 0.7163556848401682
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.044373752162015716,
+      "cur_func": 0.4774415995289567
+    },
+    "werr": {
+      "svd_plain": 0.7381973965641531,
+      "svd_actaw": 0.8037705134116125,
+      "cur_func": 0.9477430860843667,
+      "cur_lev": 0.946166598478846
+    },
+    "secs": 36.44199752807617
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.43518951218207536,
+      "svd_actaw": 0.37264998890317175,
+      "cur_func": 0.7280254657220577,
+      "cur_lev": 0.7898164870601614
+    },
+    "eloc_fit": {
+      "svd_actaw": 7.579263653769015e-08,
+      "cur_func": 0.7207595721612079
+    },
+    "werr": {
+      "svd_plain": 0.43500832146815194,
+      "svd_actaw": 0.5263465417055933,
+      "cur_func": 0.7761604952053888,
+      "cur_lev": 0.791387395914953
+    },
+    "secs": 18.336987495422363
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6265323819998119,
+      "svd_actaw": 0.5480477723108425,
+      "cur_func": 0.8554653652174019,
+      "cur_lev": 0.901834667500309
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.09698960017446641,
+      "cur_func": 0.8505163273768248
+    },
+    "werr": {
+      "svd_plain": 0.623088279372325,
+      "svd_actaw": 0.7694957621079161,
+      "cur_func": 0.8971604978219677,
+      "cur_lev": 0.9064278792656891
+    },
+    "secs": 17.740593194961548
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7824219088911347,
+      "svd_actaw": 0.6426055426853475,
+      "cur_func": 0.9329511844069421,
+      "cur_lev": 0.9586445713791862
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.337550527183484,
+      "cur_func": 0.9283188846545608
+    },
+    "werr": {
+      "svd_plain": 0.7730423493115223,
+      "svd_actaw": 0.8684425695104424,
+      "cur_func": 0.9598525890346529,
+      "cur_lev": 0.9598931153991392
+    },
+    "secs": 17.161378145217896
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.4531719838575224,
+      "svd_actaw": 0.3896176309371467,
+      "cur_func": 0.7453554935332256,
+      "cur_lev": 0.7856986134045227
+    },
+    "eloc_fit": {
+      "svd_actaw": 7.83313363866229e-08,
+      "cur_func": 0.7301873781950233
+    },
+    "werr": {
+      "svd_plain": 0.4614926565190275,
+      "svd_actaw": 0.5529150366581957,
+      "cur_func": 0.8003636935456979,
+      "cur_lev": 0.7992990839317994
+    },
+    "secs": 17.471498489379883
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6469568016887431,
+      "svd_actaw": 0.559028237862436,
+      "cur_func": 0.8617140227640893,
+      "cur_lev": 0.8902296662917171
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.09936958232511492,
+      "cur_func": 0.850938207984989
+    },
+    "werr": {
+      "svd_plain": 0.6520267059664122,
+      "svd_actaw": 0.7881291988902843,
+      "cur_func": 0.910957312714677,
+      "cur_lev": 0.9099788122354565
+    },
+    "secs": 17.17255425453186
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7918005611318838,
+      "svd_actaw": 0.6501556256188629,
+      "cur_func": 0.9349414636312793,
+      "cur_lev": 0.9595353518674437
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.34087400552945124,
+      "cur_func": 0.9281221550655431
+    },
+    "werr": {
+      "svd_plain": 0.7969875774067029,
+      "svd_actaw": 0.8822436227304142,
+      "cur_func": 0.9670251762619072,
+      "cur_lev": 0.9647510836330964
+    },
+    "secs": 17.32173228263855
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5096010482478402,
+      "svd_actaw": 0.4298741151327871,
+      "cur_func": 0.7948614506274919,
+      "cur_lev": 0.8497083164464722
+    },
+    "eloc_fit": {
+      "svd_actaw": 8.009979906118676e-08,
+      "cur_func": 0.7851803004876432
+    },
+    "werr": {
+      "svd_plain": 0.5027708153178841,
+      "svd_actaw": 0.595311274994923,
+      "cur_func": 0.838013713839569,
+      "cur_lev": 0.8364217738502845
+    },
+    "secs": 17.956942081451416
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6966351179679842,
+      "svd_actaw": 0.5971937624221413,
+      "cur_func": 0.9008734749130438,
+      "cur_lev": 0.9393573335002785
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.10679471410630692,
+      "cur_func": 0.8916649383230961
+    },
+    "werr": {
+      "svd_plain": 0.6925579260364918,
+      "svd_actaw": 0.8171748644555196,
+      "cur_func": 0.9352078271569241,
+      "cur_lev": 0.9325959020665927
+    },
+    "secs": 17.170862436294556
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.8303392274932478,
+      "svd_actaw": 0.6874534326478037,
+      "cur_func": 0.952861543279397,
+      "cur_lev": 0.9738217313677902
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.36618129261588916,
+      "cur_func": 0.9459256536714231
+    },
+    "werr": {
+      "svd_plain": 0.8303178445899696,
+      "svd_actaw": 0.9043298880021065,
+      "cur_func": 0.9790414957777556,
+      "cur_lev": 0.9740714849018176
+    },
+    "secs": 16.58877182006836
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 994,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.48340369524233195,
+      "svd_actaw": 0.391165455478024,
+      "cur_func": 0.770739851149236,
+      "cur_lev": 0.8347930513235851
+    },
+    "eloc_fit": {
+      "svd_actaw": 3.147595143346406e-08,
+      "cur_func": 0.738075335529421
+    },
+    "werr": {
+      "svd_plain": 0.4890664532452898,
+      "svd_actaw": 0.5839540813436068,
+      "cur_func": 0.8444277532662163,
+      "cur_lev": 0.8396966727968086
+    },
+    "secs": 16.154853582382202
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 994,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6821148915318834,
+      "svd_actaw": 0.552751936162118,
+      "cur_func": 0.8797640948617056,
+      "cur_lev": 0.9233531588834587
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.033845109830251116,
+      "cur_func": 0.8570158679126922
+    },
+    "werr": {
+      "svd_plain": 0.6832969739401702,
+      "svd_actaw": 0.8117256810197595,
+      "cur_func": 0.931367068027798,
+      "cur_lev": 0.9265013825079561
+    },
+    "secs": 17.001663208007812
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 994,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.823729701527286,
+      "svd_actaw": 0.6561874351827797,
+      "cur_func": 0.950601341336443,
+      "cur_lev": 0.9654717895709884
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.15351084347444804,
+      "cur_func": 0.9330715725986035
+    },
+    "werr": {
+      "svd_plain": 0.8237472403799525,
+      "svd_actaw": 0.904349813415089,
+      "cur_func": 0.9745138803250463,
+      "cur_lev": 0.9700852249923763
+    },
+    "secs": 16.166533708572388
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.3705010453458509,
+      "svd_actaw": 0.319442051620687,
+      "cur_func": 0.6573237848238026,
+      "cur_lev": 0.7508562924923037
+    },
+    "eloc_fit": {
+      "svd_actaw": 8.354618699773162e-08,
+      "cur_func": 0.6582066051078177
+    },
+    "werr": {
+      "svd_plain": 0.3773378076473466,
+      "svd_actaw": 0.46648258430042516,
+      "cur_func": 0.7210371653216197,
+      "cur_lev": 0.7571116387918388
+    },
+    "secs": 17.694535970687866
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5650899610717036,
+      "svd_actaw": 0.5024883299844528,
+      "cur_func": 0.8111404122005271,
+      "cur_lev": 0.8921668496726569
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.08826001918269596,
+      "cur_func": 0.809804244222896
+    },
+    "werr": {
+      "svd_plain": 0.5739220860994002,
+      "svd_actaw": 0.7264140870457867,
+      "cur_func": 0.8681612159723379,
+      "cur_lev": 0.886627234471186
+    },
+    "secs": 18.4045090675354
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7264540926562078,
+      "svd_actaw": 0.6089654356447648,
+      "cur_func": 0.8991527800122076,
+      "cur_lev": 0.9440203367586207
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.32132791216996626,
+      "cur_func": 0.8971813840337378
+    },
+    "werr": {
+      "svd_plain": 0.7364041677009723,
+      "svd_actaw": 0.8401881734855969,
+      "cur_func": 0.9487764573395212,
+      "cur_lev": 0.9461833068142529
+    },
+    "secs": 16.557514429092407
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.4418374793264209,
+      "svd_actaw": 0.1823029082143416,
+      "cur_func": 0.5779196261643113,
+      "cur_lev": 0.8338233914073347
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.03404654288897888,
+      "cur_func": 0.6205099918181889
+    },
+    "werr": {
+      "svd_plain": 0.39446661846143494,
+      "svd_actaw": 0.5452732907200956,
+      "cur_func": 0.738460325688092,
+      "cur_lev": 0.7587591662736386
+    },
+    "secs": 24.411317825317383
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.6343950925348888,
+      "svd_actaw": 0.28868810070753925,
+      "cur_func": 0.692849762216931,
+      "cur_lev": 0.9028102871863495
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.09967841252059007,
+      "cur_func": 0.7548977205224543
+    },
+    "werr": {
+      "svd_plain": 0.5981616062246831,
+      "svd_actaw": 0.7287287577352815,
+      "cur_func": 0.8740679225076443,
+      "cur_lev": 0.882175229187829
+    },
+    "secs": 24.083848476409912
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.7868159001172578,
+      "svd_actaw": 0.3939473513020345,
+      "cur_func": 0.8140450368380462,
+      "cur_lev": 0.9569052348217478
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.20254257436678588,
+      "cur_func": 0.8779592463277702
+    },
+    "werr": {
+      "svd_plain": 0.7611298676973682,
+      "svd_actaw": 0.8617994602120708,
+      "cur_func": 0.9527242926968789,
+      "cur_lev": 0.9437597369962741
+    },
+    "secs": 24.464674472808838
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.4962348009966859,
+      "svd_actaw": 0.17696680487678074,
+      "cur_func": 0.6284246646417276,
+      "cur_lev": 0.8709518903786088
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.037266501700214366,
+      "cur_func": 0.6692946154868322
+    },
+    "werr": {
+      "svd_plain": 0.48695184218760457,
+      "svd_actaw": 0.6392818004795096,
+      "cur_func": 0.8247769283479277,
+      "cur_lev": 0.8251513037657036
+    },
+    "secs": 24.86754274368286
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.6717873914639145,
+      "svd_actaw": 0.26587306455286663,
+      "cur_func": 0.7504878891485675,
+      "cur_lev": 0.9397820621655717
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.10143630537058487,
+      "cur_func": 0.7941761776470178
+    },
+    "werr": {
+      "svd_plain": 0.68154140109893,
+      "svd_actaw": 0.7993822905542466,
+      "cur_func": 0.9300555095052984,
+      "cur_lev": 0.9253500950552306
+    },
+    "secs": 22.590415716171265
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.794523554236597,
+      "svd_actaw": 0.4008244237282273,
+      "cur_func": 0.8371051021868458,
+      "cur_lev": 0.959229801923485
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.19573098664168317,
+      "cur_func": 0.8779125638335382
+    },
+    "werr": {
+      "svd_plain": 0.824333678782424,
+      "svd_actaw": 0.9020340226561132,
+      "cur_func": 0.9780067172730236,
+      "cur_lev": 0.9736323076759502
+    },
+    "secs": 22.600733041763306
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 943,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.49197014539129125,
+      "svd_actaw": 0.35869868111602343,
+      "cur_func": 0.6788946816563467,
+      "cur_lev": 0.8195544769100279
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.390098816214803e-08,
+      "cur_func": 0.6720806813636578
+    },
+    "werr": {
+      "svd_plain": 0.4925841787054352,
+      "svd_actaw": 0.5861388271547092,
+      "cur_func": 0.8555890728980406,
+      "cur_lev": 0.8517161219389524
+    },
+    "secs": 15.449883460998535
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 943,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6886655820032788,
+      "svd_actaw": 0.5179864739716593,
+      "cur_func": 0.8509769456721523,
+      "cur_lev": 0.930833527055765
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.035679639613881084,
+      "cur_func": 0.8349025316382022
+    },
+    "werr": {
+      "svd_plain": 0.6882940743935837,
+      "svd_actaw": 0.8145505352732159,
+      "cur_func": 0.9413076138673295,
+      "cur_lev": 0.9384355890355432
+    },
+    "secs": 16.373583555221558
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 943,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.8285578832184809,
+      "svd_actaw": 0.6482049491985749,
+      "cur_func": 0.9385179106680893,
+      "cur_lev": 0.9757309926977173
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.1620751962748905,
+      "cur_func": 0.9279869543879955
+    },
+    "werr": {
+      "svd_plain": 0.829615680485051,
+      "svd_actaw": 0.9080084092652196,
+      "cur_func": 0.9795095913754143,
+      "cur_lev": 0.978047832734694
+    },
+    "secs": 16.808902740478516
+  },
+  {
+    "name": "/model/decoder/layers.12/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 409,
+    "rank_cur": 381,
+    "n_groups": 1022,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.16266537412564538,
+      "svd_actaw": 0.14361546292750388,
+      "cur_func": 0.3225731483635909,
+      "cur_lev": 0.4427112930310687
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.1243321580639211e-08,
+      "cur_func": 0.31561888815819916
+    },
+    "werr": {
+      "svd_plain": 0.5344628924364937,
+      "svd_actaw": 0.570764325236018,
+      "cur_func": 0.8495558837844074,
+      "cur_lev": 0.8365348199673021
+    },
+    "secs": 35.697115421295166
+  },
+  {
+    "name": "/model/decoder/layers.12/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 215,
+    "rank_cur": 206,
+    "n_groups": 1022,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.22365748277406744,
+      "svd_actaw": 0.2064799747401541,
+      "cur_func": 0.3783231606857645,
+      "cur_lev": 0.570507166173823
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.7889189451822336e-08,
+      "cur_func": 0.37071107033896217
+    },
+    "werr": {
+      "svd_plain": 0.7074793803515064,
+      "svd_actaw": 0.7736807596228034,
+      "cur_func": 0.9315134783118274,
+      "cur_lev": 0.9284377321624177
+    },
+    "secs": 36.72971558570862
+  },
+  {
+    "name": "/model/decoder/layers.12/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 102,
+    "rank_cur": 100,
+    "n_groups": 1022,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.2722358127871437,
+      "svd_actaw": 0.2520769362730418,
+      "cur_func": 0.46609796120280544,
+      "cur_lev": 0.6228570990484997
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.08418638394208096,
+      "cur_func": 0.4608734532598245
+    },
+    "werr": {
+      "svd_plain": 0.8264911855110499,
+      "svd_actaw": 0.8869152241355374,
+      "cur_func": 0.9670765473120093,
+      "cur_lev": 0.9671355853922843
+    },
+    "secs": 35.844605684280396
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.45995350950530184,
+      "svd_actaw": 0.4052953061938087,
+      "cur_func": 0.7545219052717471,
+      "cur_lev": 0.8097698751623517
+    },
+    "eloc_fit": {
+      "svd_actaw": 4.543842228191212e-08,
+      "cur_func": 0.745563793485112
+    },
+    "werr": {
+      "svd_plain": 0.4573024749236543,
+      "svd_actaw": 0.5489173125165194,
+      "cur_func": 0.7952112378674038,
+      "cur_lev": 0.8070358927147147
+    },
+    "secs": 17.606294631958008
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6452201502937845,
+      "svd_actaw": 0.5785925247379489,
+      "cur_func": 0.8719405566269613,
+      "cur_lev": 0.9097874065715138
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.10769564605299956,
+      "cur_func": 0.8655112496502588
+    },
+    "werr": {
+      "svd_plain": 0.6448241808294406,
+      "svd_actaw": 0.782955337466893,
+      "cur_func": 0.9051395448774527,
+      "cur_lev": 0.913546716699728
+    },
+    "secs": 15.718212604522705
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7925131372221276,
+      "svd_actaw": 0.6739018337093889,
+      "cur_func": 0.9372267764898468,
+      "cur_lev": 0.9644782733808639
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.3684964669148585,
+      "cur_func": 0.9347813164888521
+    },
+    "werr": {
+      "svd_plain": 0.7887152340085114,
+      "svd_actaw": 0.8778087061826869,
+      "cur_func": 0.9605789282608055,
+      "cur_lev": 0.9663297870548624
+    },
+    "secs": 14.690122365951538
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.47151084204599036,
+      "svd_actaw": 0.4158071812581499,
+      "cur_func": 0.763806729577959,
+      "cur_lev": 0.7973508272125461
+    },
+    "eloc_fit": {
+      "svd_actaw": 4.39457353664145e-08,
+      "cur_func": 0.7549868489385073
+    },
+    "werr": {
+      "svd_plain": 0.47370304190242835,
+      "svd_actaw": 0.5658864639872843,
+      "cur_func": 0.8059266598473339,
+      "cur_lev": 0.8082740638923721
+    },
+    "secs": 15.021306991577148
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6552995386876876,
+      "svd_actaw": 0.5852626388084471,
+      "cur_func": 0.8779792045416697,
+      "cur_lev": 0.9140575460700605
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.11019277994498741,
+      "cur_func": 0.8691354882268956
+    },
+    "werr": {
+      "svd_plain": 0.6610724388929675,
+      "svd_actaw": 0.7925912318962989,
+      "cur_func": 0.9102554704584552,
+      "cur_lev": 0.9131712049920843
+    },
+    "secs": 15.049563646316528
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7938466907580708,
+      "svd_actaw": 0.6766566514944146,
+      "cur_func": 0.9326320592827497,
+      "cur_lev": 0.9552672192243122
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.3722714776357834,
+      "cur_func": 0.9286360413163798
+    },
+    "werr": {
+      "svd_plain": 0.8010032200951535,
+      "svd_actaw": 0.8826821030317654,
+      "cur_func": 0.9622586662638926,
+      "cur_lev": 0.9645850249193606
+    },
+    "secs": 19.06886315345764
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5497944299733863,
+      "svd_actaw": 0.4696586840317073,
+      "cur_func": 0.8210047274319479,
+      "cur_lev": 0.8462075054245254
+    },
+    "eloc_fit": {
+      "svd_actaw": 4.292331052398426e-08,
+      "cur_func": 0.8140628126251136
+    },
+    "werr": {
+      "svd_plain": 0.5498256258025214,
+      "svd_actaw": 0.6379126817244675,
+      "cur_func": 0.8707578941371997,
+      "cur_lev": 0.8550813423573823
+    },
+    "secs": 18.68391251564026
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.73365888915947,
+      "svd_actaw": 0.6230080766819752,
+      "cur_func": 0.9209315926838111,
+      "cur_lev": 0.9362824269201214
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.12050934737109882,
+      "cur_func": 0.9157469649392477
+    },
+    "werr": {
+      "svd_plain": 0.7340329389026324,
+      "svd_actaw": 0.8405215661820445,
+      "cur_func": 0.9524067551667748,
+      "cur_lev": 0.9427951650665183
+    },
+    "secs": 17.969186782836914
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.8621357729838554,
+      "svd_actaw": 0.7116714976847378,
+      "cur_func": 0.9693016740454103,
+      "cur_lev": 0.9771966705414322
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.3922193901204797,
+      "cur_func": 0.9656213030696605
+    },
+    "werr": {
+      "svd_plain": 0.8592832735366254,
+      "svd_actaw": 0.9192960011317785,
+      "cur_func": 0.9870773076523269,
+      "cur_lev": 0.9808865316609195
+    },
+    "secs": 20.414621114730835
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 986,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5681056671065704,
+      "svd_actaw": 0.4233783851010088,
+      "cur_func": 0.7437968611548812,
+      "cur_lev": 0.8387836153054656
+    },
+    "eloc_fit": {
+      "svd_actaw": 2.0256201469132507e-08,
+      "cur_func": 0.7342055680704633
+    },
+    "werr": {
+      "svd_plain": 0.5630979159998265,
+      "svd_actaw": 0.6497388704813846,
+      "cur_func": 0.8764302123900641,
+      "cur_lev": 0.8698137569269764
+    },
+    "secs": 20.936216115951538
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 986,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7495948583789636,
+      "svd_actaw": 0.568949093874059,
+      "cur_func": 0.8834045678741079,
+      "cur_lev": 0.9356189601521778
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.05225477404449714,
+      "cur_func": 0.8680692123337201
+    },
+    "werr": {
+      "svd_plain": 0.7436444788856135,
+      "svd_actaw": 0.8478584502324495,
+      "cur_func": 0.9520697767143046,
+      "cur_lev": 0.9479141451107689
+    },
+    "secs": 18.78856110572815
+  },
+  {
+    "name": "/model/decoder/layers.18/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 986,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.8707435672020009,
+      "svd_actaw": 0.6831591949603308,
+      "cur_func": 0.9573819512067556,
+      "cur_lev": 0.9734346210026491
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.23645711214866,
+      "cur_func": 0.9496426355431488
+    },
+    "werr": {
+      "svd_plain": 0.8648850196704981,
+      "svd_actaw": 0.9254633023779836,
+      "cur_func": 0.9854006516552811,
+      "cur_lev": 0.9830965410228982
+    },
+    "secs": 16.18135094642639
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.3721082599478052,
+      "svd_actaw": 0.30715845358180666,
+      "cur_func": 0.640140736989952,
+      "cur_lev": 0.7671613785318068
+    },
+    "eloc_fit": {
+      "svd_actaw": 5.3822040869033295e-08,
+      "cur_func": 0.6437632614614187
+    },
+    "werr": {
+      "svd_plain": 0.3783392068784445,
+      "svd_actaw": 0.46694313291548106,
+      "cur_func": 0.7295364887075122,
+      "cur_lev": 0.7713984038397694
+    },
+    "secs": 14.000895500183105
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5724342722170086,
+      "svd_actaw": 0.48314621647136585,
+      "cur_func": 0.7810864027839721,
+      "cur_lev": 0.8797615126995396
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.09023048739485202,
+      "cur_func": 0.7842533690440154
+    },
+    "werr": {
+      "svd_plain": 0.5822282289173293,
+      "svd_actaw": 0.7277244105113703,
+      "cur_func": 0.8595485261346245,
+      "cur_lev": 0.8963741707030396
+    },
+    "secs": 13.74955415725708
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7426459341761179,
+      "svd_actaw": 0.5809206997705012,
+      "cur_func": 0.8857777032925658,
+      "cur_lev": 0.9528259764862127
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.31936494530760384,
+      "cur_func": 0.8844944199159318
+    },
+    "werr": {
+      "svd_plain": 0.7414023752186661,
+      "svd_actaw": 0.8383467912309284,
+      "cur_func": 0.9359050754013178,
+      "cur_lev": 0.955477740193336
+    },
+    "secs": 13.535112380981445
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.4036806049196894,
+      "svd_actaw": 0.13393318973788015,
+      "cur_func": 0.5466123022259155,
+      "cur_lev": 0.6885165449478315
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.027303567279584984,
+      "cur_func": 0.5805787450084088
+    },
+    "werr": {
+      "svd_plain": 0.3779602210772788,
+      "svd_actaw": 0.5264843374859051,
+      "cur_func": 0.7241639870966986,
+      "cur_lev": 0.7548640189540676
+    },
+    "secs": 21.01046347618103
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.6332687529745108,
+      "svd_actaw": 0.22135339102338247,
+      "cur_func": 0.6700610976075424,
+      "cur_lev": 0.9000693772561085
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.0822384732108519,
+      "cur_func": 0.730981894168677
+    },
+    "werr": {
+      "svd_plain": 0.585930158177668,
+      "svd_actaw": 0.7149146877884812,
+      "cur_func": 0.8568396153323711,
+      "cur_lev": 0.8799605214570597
+    },
+    "secs": 24.355453491210938
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.776469531733107,
+      "svd_actaw": 0.3464924177945305,
+      "cur_func": 0.8315150025388098,
+      "cur_lev": 0.962676287627723
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.1702105533726568,
+      "cur_func": 0.8549707062939589
+    },
+    "werr": {
+      "svd_plain": 0.7487013736027982,
+      "svd_actaw": 0.849606090017981,
+      "cur_func": 0.9417655857273097,
+      "cur_lev": 0.9435362666455541
+    },
+    "secs": 22.489614725112915
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.4678696962643821,
+      "svd_actaw": 0.15738916480241014,
+      "cur_func": 0.6176410332950732,
+      "cur_lev": 0.876688069475331
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.0330586334570397,
+      "cur_func": 0.6563958856169358
+    },
+    "werr": {
+      "svd_plain": 0.43852324085572647,
+      "svd_actaw": 0.5852353833556929,
+      "cur_func": 0.7779074971250854,
+      "cur_lev": 0.7807583906387483
+    },
+    "secs": 22.761759519577026
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.6842311557194122,
+      "svd_actaw": 0.23988228877456463,
+      "cur_func": 0.7802350268016928,
+      "cur_lev": 0.9550625091143559
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.0931391743516958,
+      "cur_func": 0.8035498214942457
+    },
+    "werr": {
+      "svd_plain": 0.6332085705678013,
+      "svd_actaw": 0.7528872162616971,
+      "cur_func": 0.8895845213763725,
+      "cur_lev": 0.8807988888505135
+    },
+    "secs": 21.963804006576538
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.8327291429268618,
+      "svd_actaw": 0.37323768465794993,
+      "cur_func": 0.8575182033976708,
+      "cur_lev": 0.9822572637430974
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.186721912454048,
+      "cur_func": 0.8802452885753776
+    },
+    "werr": {
+      "svd_plain": 0.7774187510891329,
+      "svd_actaw": 0.867124914954382,
+      "cur_func": 0.9510741053074765,
+      "cur_lev": 0.9397429635141388
+    },
+    "secs": 21.838183641433716
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 817,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.48462407310130146,
+      "svd_actaw": 0.26628051811442105,
+      "cur_func": 0.6203168112886587,
+      "cur_lev": 0.7947521528220158
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.5922793935979003e-08,
+      "cur_func": 0.5929003917483822
+    },
+    "werr": {
+      "svd_plain": 0.48366241129297005,
+      "svd_actaw": 0.5709651482630581,
+      "cur_func": 0.8936084881450344,
+      "cur_lev": 0.8886495269307191
+    },
+    "secs": 11.869842052459717
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 817,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6820827182091229,
+      "svd_actaw": 0.4043308835637447,
+      "cur_func": 0.7671362650301393,
+      "cur_lev": 0.8910162225050614
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.028937175772390158,
+      "cur_func": 0.7285833612317422
+    },
+    "werr": {
+      "svd_plain": 0.6739003604401448,
+      "svd_actaw": 0.8000187704258558,
+      "cur_func": 0.9606048961849101,
+      "cur_lev": 0.9572793119480649
+    },
+    "secs": 11.77250599861145
+  },
+  {
+    "name": "/model/decoder/layers.18/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 817,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.8173554006844885,
+      "svd_actaw": 0.5691250548169152,
+      "cur_func": 0.8962645185269713,
+      "cur_lev": 0.9400204711789544
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.17847044950178698,
+      "cur_func": 0.8586234503512223
+    },
+    "werr": {
+      "svd_plain": 0.8066143878248223,
+      "svd_actaw": 0.8951166109686798,
+      "cur_func": 0.993713660468219,
+      "cur_lev": 0.9919485570399393
+    },
+    "secs": 13.461332559585571
+  },
+  {
+    "name": "/model/decoder/layers.18/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 409,
+    "rank_cur": 381,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.21735279330819343,
+      "svd_actaw": 0.19315685226263302,
+      "cur_func": 0.38860161979667596,
+      "cur_lev": 0.5080255984620551
+    },
+    "eloc_fit": {
+      "svd_actaw": 6.418393228729746e-09,
+      "cur_func": 0.38210279663267627
+    },
+    "werr": {
+      "svd_plain": 0.5349453695910641,
+      "svd_actaw": 0.5717386104682453,
+      "cur_func": 0.8400289893815762,
+      "cur_lev": 0.834514541965698
+    },
+    "secs": 40.545828104019165
+  },
+  {
+    "name": "/model/decoder/layers.18/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 215,
+    "rank_cur": 206,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.30047366963374444,
+      "svd_actaw": 0.27466043571091453,
+      "cur_func": 0.45731096620789885,
+      "cur_lev": 0.6280295362109377
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.0352200938281519e-08,
+      "cur_func": 0.45113544234569614
+    },
+    "werr": {
+      "svd_plain": 0.7067217923211011,
+      "svd_actaw": 0.7760515649791595,
+      "cur_func": 0.9289271039862623,
+      "cur_lev": 0.9297983154089831
+    },
+    "secs": 34.57729768753052
+  },
+  {
+    "name": "/model/decoder/layers.18/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 102,
+    "rank_cur": 100,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.3656980664963309,
+      "svd_actaw": 0.32456503419349875,
+      "cur_func": 0.5255919080128962,
+      "cur_lev": 0.630791833027356
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.11613987963910423,
+      "cur_func": 0.5208523318596613
+    },
+    "werr": {
+      "svd_plain": 0.8254161559635074,
+      "svd_actaw": 0.8886968692336454,
+      "cur_func": 0.9662548313069989,
+      "cur_lev": 0.9667924633213228
+    },
+    "secs": 36.9708046913147
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.3038518206255134,
+      "svd_actaw": 0.28056891989780214,
+      "cur_func": 0.5858421749076924,
+      "cur_lev": 0.6669023080561385
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.9142287563170034e-08,
+      "cur_func": 0.5790644194582266
+    },
+    "werr": {
+      "svd_plain": 0.31082578818330003,
+      "svd_actaw": 0.39412388859252556,
+      "cur_func": 0.6500739968589607,
+      "cur_lev": 0.6847599852662948
+    },
+    "secs": 14.43250322341919
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5051409140411336,
+      "svd_actaw": 0.4752772773837648,
+      "cur_func": 0.7515092639645901,
+      "cur_lev": 0.806327587699959
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.09202543933467557,
+      "cur_func": 0.7480779009028568
+    },
+    "werr": {
+      "svd_plain": 0.5044140396425121,
+      "svd_actaw": 0.6624300661520618,
+      "cur_func": 0.8101064612125901,
+      "cur_lev": 0.8238799764481067
+    },
+    "secs": 15.936322212219238
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6751030576686908,
+      "svd_actaw": 0.5918828436689466,
+      "cur_func": 0.8578126350821561,
+      "cur_lev": 0.8975804360351817
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.3293024199705567,
+      "cur_func": 0.8616469329337566
+    },
+    "werr": {
+      "svd_plain": 0.6756988870536453,
+      "svd_actaw": 0.78803932972783,
+      "cur_func": 0.9110077797227201,
+      "cur_lev": 0.9133195082753015
+    },
+    "secs": 17.103832721710205
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.3118074985160647,
+      "svd_actaw": 0.28661278807749524,
+      "cur_func": 0.5932102932806321,
+      "cur_lev": 0.648773474952124
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.9893403606303263e-08,
+      "cur_func": 0.5867860467728186
+    },
+    "werr": {
+      "svd_plain": 0.3178196564865055,
+      "svd_actaw": 0.40130131161472526,
+      "cur_func": 0.659160022868306,
+      "cur_lev": 0.6768429562631743
+    },
+    "secs": 16.703484296798706
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5078530039357966,
+      "svd_actaw": 0.4778404521486678,
+      "cur_func": 0.758022430093127,
+      "cur_lev": 0.800169211315311
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.09205757815480015,
+      "cur_func": 0.7537581593823474
+    },
+    "werr": {
+      "svd_plain": 0.5121109562623269,
+      "svd_actaw": 0.6671592717332513,
+      "cur_func": 0.8170105757281557,
+      "cur_lev": 0.8182536973502728
+    },
+    "secs": 17.256998538970947
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6814687762334926,
+      "svd_actaw": 0.5979334450305643,
+      "cur_func": 0.8634505134091084,
+      "cur_lev": 0.8884079507370024
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.33088792676632867,
+      "cur_func": 0.8654826235957509
+    },
+    "werr": {
+      "svd_plain": 0.6834391519128665,
+      "svd_actaw": 0.7911302927057083,
+      "cur_func": 0.9149941811365219,
+      "cur_lev": 0.9040837506690675
+    },
+    "secs": 17.258686542510986
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.40086166830064424,
+      "svd_actaw": 0.3536955461055502,
+      "cur_func": 0.6818946058391243,
+      "cur_lev": 0.7415218935437785
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.816145834245812e-08,
+      "cur_func": 0.674742497918469
+    },
+    "werr": {
+      "svd_plain": 0.40567016824492724,
+      "svd_actaw": 0.49627658441054534,
+      "cur_func": 0.7562619880693653,
+      "cur_lev": 0.768346400569559
+    },
+    "secs": 17.76999545097351
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5842061920146054,
+      "svd_actaw": 0.5383769571311774,
+      "cur_func": 0.823473978195618,
+      "cur_lev": 0.8680760080859657
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.10546878991954786,
+      "cur_func": 0.8241995576413359
+    },
+    "werr": {
+      "svd_plain": 0.5977049294769198,
+      "svd_actaw": 0.7450010255094204,
+      "cur_func": 0.8890579083885937,
+      "cur_lev": 0.8922115412727267
+    },
+    "secs": 17.256611824035645
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7378344028079727,
+      "svd_actaw": 0.6444151291342655,
+      "cur_func": 0.9145811377461364,
+      "cur_lev": 0.936879802483136
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.35758932611203925,
+      "cur_func": 0.914360272465634
+    },
+    "werr": {
+      "svd_plain": 0.7538646891698968,
+      "svd_actaw": 0.8496581421652183,
+      "cur_func": 0.959894525626176,
+      "cur_lev": 0.9528880344703906
+    },
+    "secs": 17.430845975875854
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 972,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.37793648382399797,
+      "svd_actaw": 0.17488866418494176,
+      "cur_func": 0.6118972074979745,
+      "cur_lev": 0.698607713153219
+    },
+    "eloc_fit": {
+      "svd_actaw": 1.9534718191306268e-08,
+      "cur_func": 0.6167383665826804
+    },
+    "werr": {
+      "svd_plain": 0.34363034660810887,
+      "svd_actaw": 0.42894577332064343,
+      "cur_func": 0.76135455758507,
+      "cur_lev": 0.683096251325139
+    },
+    "secs": 16.596076726913452
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 972,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.559564843088058,
+      "svd_actaw": 0.28969340054360904,
+      "cur_func": 0.8073862321084267,
+      "cur_lev": 0.8447725844514822
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.038855603579712954,
+      "cur_func": 0.8060818618312386
+    },
+    "werr": {
+      "svd_plain": 0.5165261173671956,
+      "svd_actaw": 0.7032109603032464,
+      "cur_func": 0.8998372168972375,
+      "cur_lev": 0.8079468793255653
+    },
+    "secs": 16.3940269947052
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 972,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7337626355185575,
+      "svd_actaw": 0.41707969939172185,
+      "cur_func": 0.9284401709081677,
+      "cur_lev": 0.9137036402394398
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.18352926496694144,
+      "cur_func": 0.9221662500472292
+    },
+    "werr": {
+      "svd_plain": 0.670500347463918,
+      "svd_actaw": 0.8283157580273961,
+      "cur_func": 0.9626037938750945,
+      "cur_lev": 0.8783569445153848
+    },
+    "secs": 16.56361699104309
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.34316147810437536,
+      "svd_actaw": 0.3005687199655412,
+      "cur_func": 0.6171851169721867,
+      "cur_lev": 0.7300519877439365
+    },
+    "eloc_fit": {
+      "svd_actaw": 2.0050500797146705e-08,
+      "cur_func": 0.6112695021402019
+    },
+    "werr": {
+      "svd_plain": 0.34102816892391047,
+      "svd_actaw": 0.4258542744670743,
+      "cur_func": 0.6762167652786902,
+      "cur_lev": 0.7319863454786855
+    },
+    "secs": 17.850701808929443
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.5320876310279249,
+      "svd_actaw": 0.48320332720082954,
+      "cur_func": 0.7625031980522,
+      "cur_lev": 0.8633505143521395
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.09263117475047387,
+      "cur_func": 0.7568711789506372
+    },
+    "werr": {
+      "svd_plain": 0.5362691630773166,
+      "svd_actaw": 0.6872357540219305,
+      "cur_func": 0.8162145356211243,
+      "cur_lev": 0.8643813634607852
+    },
+    "secs": 17.32344698905945
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/q_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.687095182213167,
+      "svd_actaw": 0.5917675238462494,
+      "cur_func": 0.8718727782640564,
+      "cur_lev": 0.9310170657556811
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.32946039321989656,
+      "cur_func": 0.8649421079261324
+    },
+    "werr": {
+      "svd_plain": 0.6939213462466288,
+      "svd_actaw": 0.8024853090895068,
+      "cur_func": 0.9162971260121,
+      "cur_lev": 0.9379121223131868
+    },
+    "secs": 17.099565029144287
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.3139599382612027,
+      "svd_actaw": 0.13668486249603523,
+      "cur_func": 0.4841151642057119,
+      "cur_lev": 0.6361112342010249
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.027650450943143744,
+      "cur_func": 0.515370715741687
+    },
+    "werr": {
+      "svd_plain": 0.33366811519236506,
+      "svd_actaw": 0.47774129763404216,
+      "cur_func": 0.6785036517523393,
+      "cur_lev": 0.7064437369492778
+    },
+    "secs": 22.880812644958496
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.5097190058357441,
+      "svd_actaw": 0.22913565716369796,
+      "cur_func": 0.6470597457559019,
+      "cur_lev": 0.7889725614908959
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.08503432546663131,
+      "cur_func": 0.6388609082465851
+    },
+    "werr": {
+      "svd_plain": 0.5318616262593633,
+      "svd_actaw": 0.6648696625366284,
+      "cur_func": 0.8109635754006398,
+      "cur_lev": 0.8425831084408358
+    },
+    "secs": 23.09214496612549
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/k_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.7202922089791127,
+      "svd_actaw": 0.33479234045605943,
+      "cur_func": 0.7303520717883333,
+      "cur_lev": 0.8704311637314069
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.17652936282514484,
+      "cur_func": 0.7468132077301758
+    },
+    "werr": {
+      "svd_plain": 0.6981397065220533,
+      "svd_actaw": 0.8126597004541078,
+      "cur_func": 0.9042565829855044,
+      "cur_lev": 0.9321133039407602
+    },
+    "secs": 23.032782316207886
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.3471098149968105,
+      "svd_actaw": 0.1565314621500185,
+      "cur_func": 0.5473549246733297,
+      "cur_lev": 0.7627869709819902
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.03151334095211665,
+      "cur_func": 0.5692565306089058
+    },
+    "werr": {
+      "svd_plain": 0.37499114775947906,
+      "svd_actaw": 0.5191441781772547,
+      "cur_func": 0.7248795226939555,
+      "cur_lev": 0.7826459740554454
+    },
+    "secs": 22.631415367126465
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.5617508050030336,
+      "svd_actaw": 0.24329603322170612,
+      "cur_func": 0.6774240534185948,
+      "cur_lev": 0.8454571657862422
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.09423537325113882,
+      "cur_func": 0.7181553249683847
+    },
+    "werr": {
+      "svd_plain": 0.578447186689776,
+      "svd_actaw": 0.7039050088810563,
+      "cur_func": 0.8573688053253498,
+      "cur_lev": 0.8900476261080646
+    },
+    "secs": 22.787444829940796
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/v_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 1024,
+    "n_fit": 512,
+    "n_eval": 512,
+    "eloc": {
+      "svd_plain": 0.7408251179094654,
+      "svd_actaw": 0.33603009806357775,
+      "cur_func": 0.8005760913003384,
+      "cur_lev": 0.9753679236915852
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.18869247077119955,
+      "cur_func": 0.8333460865949486
+    },
+    "werr": {
+      "svd_plain": 0.7319706871422168,
+      "svd_actaw": 0.8364301357252193,
+      "cur_func": 0.9283818624778046,
+      "cur_lev": 0.9308568391245959
+    },
+    "secs": 23.099775075912476
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 256,
+    "rank_cur": 230,
+    "n_groups": 608,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.4204132384839023,
+      "svd_actaw": 0.09712299375733464,
+      "cur_func": 0.31288151625317073,
+      "cur_lev": 0.3325504820688899
+    },
+    "eloc_fit": {
+      "svd_actaw": 3.67407028702256e-08,
+      "cur_func": 0.26279200189376706
+    },
+    "werr": {
+      "svd_plain": 0.3817428579294102,
+      "svd_actaw": 0.46362340530854346,
+      "cur_func": 0.9568170812135334,
+      "cur_lev": 0.945214030974175
+    },
+    "secs": 10.486741304397583
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 134,
+    "rank_cur": 126,
+    "n_groups": 608,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.6175796437831698,
+      "svd_actaw": 0.15352871721559894,
+      "cur_func": 0.38085447465734046,
+      "cur_lev": 0.39179749484161874
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.011298478040899895,
+      "cur_func": 0.32806760578291333
+    },
+    "werr": {
+      "svd_plain": 0.5724331754303205,
+      "svd_actaw": 0.7125140438722304,
+      "cur_func": 1.020658335099096,
+      "cur_lev": 1.0041358526072908
+    },
+    "secs": 10.475707530975342
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/out_proj/MatMul",
+    "m": 1024,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 64,
+    "rank_cur": 62,
+    "n_groups": 608,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.7561707709065337,
+      "svd_actaw": 0.20443166728581927,
+      "cur_func": 0.42755324252832694,
+      "cur_lev": 0.4301454448304341
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.05510775014921788,
+      "cur_func": 0.3763972879367791
+    },
+    "werr": {
+      "svd_plain": 0.7076208902081398,
+      "svd_actaw": 0.8298818636764052,
+      "cur_func": 1.0426542054232881,
+      "cur_lev": 1.0289238815751733
+    },
+    "secs": 9.99067759513855
+  },
+  {
+    "name": "/model/decoder/layers.23/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 2.0,
+    "rank_svd": 409,
+    "rank_cur": 381,
+    "n_groups": 1023,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.2640913084882734,
+      "svd_actaw": 0.22496494915940723,
+      "cur_func": 0.454895123965946,
+      "cur_lev": 0.5799487645307105
+    },
+    "eloc_fit": {
+      "svd_actaw": 2.6895907705710925e-09,
+      "cur_func": 0.44269546142563926
+    },
+    "werr": {
+      "svd_plain": 0.5256029218018061,
+      "svd_actaw": 0.5634466150384864,
+      "cur_func": 0.8311340585791183,
+      "cur_lev": 0.8207680675281133
+    },
+    "secs": 39.66613793373108
+  },
+  {
+    "name": "/model/decoder/layers.23/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 3.81,
+    "rank_svd": 215,
+    "rank_cur": 206,
+    "n_groups": 1023,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.35775397547942067,
+      "svd_actaw": 0.31830243347537546,
+      "cur_func": 0.5645928977582281,
+      "cur_lev": 0.6947279116586594
+    },
+    "eloc_fit": {
+      "svd_actaw": 4.635515973235151e-09,
+      "cur_func": 0.5521771390607388
+    },
+    "werr": {
+      "svd_plain": 0.6941446361235005,
+      "svd_actaw": 0.7679039077129415,
+      "cur_func": 0.92546584524672,
+      "cur_lev": 0.9229626366059205
+    },
+    "secs": 40.339702129364014
+  },
+  {
+    "name": "/model/decoder/layers.23/fc1/MatMul",
+    "m": 4096,
+    "n": 1024,
+    "compression": 8.0,
+    "rank_svd": 102,
+    "rank_cur": 100,
+    "n_groups": 1023,
+    "n_fit": 177,
+    "n_eval": 178,
+    "eloc": {
+      "svd_plain": 0.43661844830198693,
+      "svd_actaw": 0.3750071004609849,
+      "cur_func": 0.660631881519582,
+      "cur_lev": 0.7404011257191356
+    },
+    "eloc_fit": {
+      "svd_actaw": 0.13577662227079118,
+      "cur_func": 0.6497179837138237
+    },
+    "werr": {
+      "svd_plain": 0.8127304596224824,
+      "svd_actaw": 0.8900882544363903,
+      "cur_func": 0.9681856802218395,
+      "cur_lev": 0.9678988821399737
+    },
+    "secs": 35.79130291938782
+  }
+]

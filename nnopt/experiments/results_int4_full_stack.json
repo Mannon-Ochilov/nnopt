@@ -1,0 +1,10 @@
+{
+  "ppl": 8.268443351992019,
+  "method": "ours_ls+biascorr",
+  "reference": {
+    "AWQ": 8.222,
+    "RTN": 8.583,
+    "GPTQ": 8.646,
+    "ours_ls (biassiz)": 8.246
+  }
+}

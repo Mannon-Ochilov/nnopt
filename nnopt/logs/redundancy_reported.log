@@ -1,0 +1,106 @@
+==============================================================================
+FUNCTIONAL REDUNDANCY -- AS REPORTED IN THE ARTICLE
+==============================================================================
+source   : experiments/results_ffn_prune.json, results_mbert.json, results_llama.json
+recorded : see per-block source
+machine  :
+           Intel Core i7-11850H (Tiger Lake H, 8C/16T)
+           L1d 48 KiB/core  L2 1.25 MiB/core  L3 24 MiB shared
+           64 GiB RAM, Windows 11, onnxruntime 1.28.0 CPUExecutionProvider
+           Python 3.12.8, numpy 2.4.6, torch 2.13.0+cpu, transformers 4.57.6
+protocol :
+           Share of FFN channels the cosine criterion endorses merging, with
+           the contribution gate at eps_thr = 0.5.
+           These are the runs quoted in Tables 11 and 12. Calibration
+           activations were captured WITHOUT an attention/padding mask, so
+           padded positions enter the response vectors: Whisper pads every
+           clip to a 30 s window and mBERT to 128 tokens. See
+           redundancy_masked.log for a re-measurement with the mask applied
+           and for how much it moves each figure.
+==============================================================================
+
+--- Whisper-medium encoder, tau = 0.99, all 24 layers ---
+source: experiments/results_ffn_prune.json   recorded: 2026-08-13 18:10
+
+  layer     kept   removed     share
+     L0     2332      1764    43.07%
+     L1     1944      2152    52.54%
+     L2     1720      2376    58.01%
+     L3     1762      2334    56.98%
+     L4     2018      2078    50.73%
+     L5     2561      1535    37.48%
+     L6     2941      1155    28.20%
+     L7     3219       877    21.41%
+     L8     3048      1048    25.59%
+     L9     3370       726    17.72%
+    L10     3649       447    10.91%
+    L11     3903       193     4.71%
+    L12     4070        26     0.63%
+    L13     4086        10     0.24%
+    L14     4092         4     0.10%
+    L15     4096         0     0.00%
+    L16     4095         1     0.02%
+    L17     4096         0     0.00%
+    L18     4096         0     0.00%
+    L19     4096         0     0.00%
+    L20     4096         0     0.00%
+    L21     4093         3     0.07%
+    L22     4092         4     0.10%
+    L23     4094         2     0.05%
+
+mean 17.02%   peak 58.01% (L2)
+-> Table 11: '17.1%, peak 58.0%'
+
+--- Whisper encoder, tau sweep on a 7-layer sample ---
+source: experiments/results_ffn_redundancy.json   recorded: 2026-08-12 19:34
+
+operator                      t=0.99    t=0.95     t=0.9     t=0.8     t=0.7
+layers.0/fc2                  43.09%    67.75%    79.30%    88.23%    91.85%
+layers.4/fc2                  50.66%    68.16%    80.32%    90.89%    94.95%
+layers.8/fc2                  25.49%    32.74%    46.12%    73.17%    85.72%
+layers.12/fc2                  0.66%     7.86%    36.33%    76.51%    86.84%
+layers.16/fc2                  0.02%     0.39%     2.05%    16.11%    41.65%
+layers.20/fc2                  0.00%     0.17%     0.95%     5.15%    16.21%
+layers.23/fc2                  0.05%     0.32%     1.59%     9.20%    23.44%
+
+--- mBERT, 12 layers, 3072 FFN channels ---
+source: experiments/results_mbert.json   recorded: 2026-08-14 16:04
+
+operator                                        t=0.99    t=0.95     t=0.9
+bert/encoder/layer.0/output/dense                0.65%     4.85%    12.34%
+bert/encoder/layer.1/output/dense                0.10%     3.26%    10.61%
+bert/encoder/layer.2/output/dense                0.07%     1.79%     9.73%
+bert/encoder/layer.3/output/dense                0.00%     2.21%     7.78%
+bert/encoder/layer.4/output/dense                0.07%     2.73%    16.50%
+bert/encoder/layer.5/output/dense                0.00%     0.49%     2.31%
+bert/encoder/layer.6/output/dense                0.00%     0.16%     1.30%
+bert/encoder/layer.7/output/dense                0.00%     0.10%     2.80%
+bert/encoder/layer.8/output/dense                0.00%     0.10%     2.67%
+bert/encoder/layer.9/output/dense                0.07%     0.16%     3.39%
+bert/encoder/layer.10/output/dense               0.03%     0.03%     9.51%
+bert/encoder/layer.11/output/dense               0.03%     0.52%    20.51%
+
+mean 0.08%   peak 0.65% at tau = 0.99
+-> Table 11: '0.1%, peak 0.7%'
+
+--- open_llama_3b, gated FFN, 8640 channels ---
+source: experiments/results_llama.json   recorded: 2026-08-14 21:57
+note: calibrated on Uzbek transcripts padded to 128 tokens
+
+layer           t=0.99    t=0.95     t=0.9  e_loc(0.99)
+layer_0          3.37%    15.41%    24.99%      0.00988
+layer_4          0.65%     4.65%    10.24%      0.01443
+layer_8          0.15%     0.81%     2.30%      0.01549
+layer_12         0.14%     4.27%     8.75%      0.01951
+layer_16         0.05%     1.01%     2.89%      0.01062
+layer_20         0.00%     0.08%     0.30%      0.00000
+layer_24         0.03%     0.34%     1.25%      0.00162
+
+mean 0.63%   peak 3.37% at tau = 0.99
+-> Table 11: '0.6%, peak 3.4%'
+
+cache decision per operator (same file):
+  q/k/v/o_proj            10 240 000 params  INT8    9.77 MiB  need  0.58x  2-holat
+  gate/up_proj            27 648 000 params  INT8   26.37 MiB  need  1.57x  3-holat
+  down_proj               27 648 000 params  INT8   26.37 MiB  need  1.57x  3-holat
+  lm_head                102 400 000 params  INT8   97.66 MiB  need  5.81x  3-holat

@@ -1,0 +1,126 @@
+==============================================================================
+WORD ERROR RATE -- ALL MEASURED CONFIGURATIONS
+==============================================================================
+source   : experiments/results_*.json (several)
+recorded : see per-block source
+machine  :
+           Intel Core i7-11850H (Tiger Lake H, 8C/16T)
+           L1d 48 KiB/core  L2 1.25 MiB/core  L3 24 MiB shared
+           64 GiB RAM, Windows 11, onnxruntime 1.28.0 CPUExecutionProvider
+           Python 3.12.8, numpy 2.4.6, torch 2.13.0+cpu, transformers 4.57.6
+protocol :
+           Uzbek Common Voice. Calibration and evaluation utterances disjoint.
+           Confidence intervals: percentile bootstrap over utterances, 2000
+           resamples, seed 0.
+           WER is the mean of per-utterance error rates (macro average), so
+           the resampling unit is the utterance.
+           Blocks differ in evaluation set and are NOT comparable across
+           blocks: the same FP32 encoder scores 0.0417 on the 24-utterance
+           smoke set, 0.0931 on 100 validation utterances and 0.1793 on the
+           300-utterance test split.
+==============================================================================
+
+
+--- ENCODER CONFIGURATION LIBRARY (decoder fixed at INT8; sizes are whole-model) ---
+source: experiments/results_config_library.json
+
+configuration                                       MiB      WER   wer_lo   wer_hi      CER     n
+------------------------------------------------------------------------------------------------
+int8                                              737.7   0.1847   0.1558   0.2145   0.0538     -
+mag30                                             679.8   0.6294   0.4852   0.7894   0.3626   300
+mag50                                             641.3   0.7913   0.6280   0.9787   0.4243   300
+t99                                               704.9   0.1833   0.1535   0.2145   0.0549     -
+t97                                               698.9   0.1916   0.1602   0.2224   0.0575     -
+t95                                               692.3   0.2006   0.1697   0.2319   0.0621     -
+t93                                               685.5   0.2179   0.1837   0.2526   0.0710     -
+t90                                               674.9   0.2365   0.2026   0.2725   0.0847     -
+r45                                               650.9   0.3393   0.2673   0.4317   0.1416     -
+axis                                              651.2   0.3026   0.2658   0.3399   0.0968     -
+fp32                                             1610.1   0.1793   0.1506   0.2091   0.0522   300
+r45b                                              650.9   0.3400   0.2929   0.3958   0.1166   300
+
+--- WHOLE MODEL, ENCODER + DECODER ---
+source: experiments/results_whole_model_cascade.json
+
+configuration                                       MiB      WER   wer_lo   wer_hi      CER     n
+------------------------------------------------------------------------------------------------
+A: FP32                                          2914.8   0.1761   0.1467   0.2061   0.0504   300
+B: bir xil yumshoq (hamma joyda INT8)             737.7   0.1847   0.1558   0.2145   0.0538   300
+C: kaskad                                         704.9   0.1833   0.1535   0.2145   0.0549   300
+D: bir xil agressiv (hamma joyda past-rank)       546.1   0.6101   0.5025   0.7526   0.2219   300
+
+--- ALL SCORED VARIANTS, TEST SPLIT ---
+source: experiments/results_final_wer_testsplit.json
+
+configuration                                       MiB      WER   wer_lo   wer_hi      CER     n
+------------------------------------------------------------------------------------------------
+encoder: FP32                                         -   0.1793   0.1506   0.2091   0.0522   300
+encoder: INT8                                         -   0.1815   0.1522   0.2122   0.0549   300
+encoder: INT8 + taqsimlangan rank                     -   0.3056   0.2691   0.3409   0.1018   300
+encoder: qisqartirish + INT8 per-channel              -   0.1943   0.1627   0.2260   0.0589   300
+encoder: GPTQ yolg'iz                                 -   0.1847   0.1558   0.2145   0.0538   300
+encoder: qisqartirish + GPTQ                          -   0.1833   0.1535   0.2145   0.0549   300
+decoder: decoder FP32                                 -   0.1761   0.1467   0.2061   0.0504   300
+decoder: decoder INT8                                 -   0.1793   0.1506   0.2091   0.0522   300
+decoder: decoder INT8 per-channel                     -   0.1764   0.1479   0.2056   0.0502   300
+encoder: RTN per-channel yolg'iz                      -   0.1858   0.1572   0.2171   0.0560   300
+encoder: qisqartirish + RTN per-channel               -   0.1943   0.1627   0.2260   0.0589   300
+encoder: INT8 + bir xil rank                          -   0.3513   0.3015   0.4143   0.1184   300
+encoder: qisqartirish magnitude + GPTQ                -   0.1837   0.1546   0.2149   0.0556   300
+encoder: qisqartirish wanda + GPTQ                    -   0.1850   0.1548   0.2162   0.0544   300
+encoder: t95 bizniki + GPTQ                           -   0.2006   0.1697   0.2319   0.0621   300
+encoder: t95 magnitude + GPTQ                         -   2.7378   2.3246   3.1733   0.9458   300
+encoder: t95 wanda + GPTQ                             -   0.2202   0.1732   0.2835   0.0801   300
+encoder: t95 bizniki, kompensatsiyasiz                -   1.3393   0.9859   1.7961   0.5685   300
+encoder: t97 bizniki + GPTQ (eps=5% tanlovi)          -   0.1916   0.1602   0.2224   0.0575   300
+encoder: t97 magnitude + GPTQ                         -   0.1832   0.1537   0.2137   0.0552   300
+encoder: t97 wanda + GPTQ                             -   0.1851   0.1561   0.2153   0.0561   300
+encoder: t93 bizniki + GPTQ                           -   0.2179   0.1837   0.2526   0.0710   300
+encoder: t93 magnitude + GPTQ                         -   5.7990   5.0767   6.5728   2.0011   300
+encoder: t93 wanda + GPTQ                             -   0.2395   0.1805   0.3238   0.0779   300
+encoder: Wanda asl (strukturasiz) t99                 -   0.1951   0.1636   0.2273   0.0586   300
+encoder: Wanda asl (strukturasiz) t95                 -   0.2696   0.1955   0.3706   0.1233   300
+encoder: FLAP t99                                     -   0.1859   0.1565   0.2164   0.0572   300
+encoder: FLAP t95                                     -   0.1925   0.1628   0.2231   0.0592   300
+encoder: gibrid (bizniki + bias) t99                  -   0.1842   0.1556   0.2140   0.0525   300
+encoder: gibrid (bizniki + bias) t95                  -   0.1967   0.1673   0.2278   0.0620   300
+encoder: ikki bosqichli (kosinus + fluktuatsiy        -   0.1921   0.1618   0.2231   0.0596   300
+encoder: global: magnitude t99                        -   0.1876   0.1578   0.2197   0.0567   300
+encoder: global: wanda uniform t99                    -   0.2140   0.1811   0.2492   0.0642   300
+encoder: global: FLAP adaptiv t99                     -   0.1838   0.1537   0.2155   0.0557   300
+encoder: global: magnitude t95                        -   0.4192   0.2674   0.6244   0.1834   300
+encoder: global: wanda uniform t95                    -   0.2378   0.2018   0.2757   0.0743   300
+encoder: global: FLAP adaptiv t95                     -   0.1984   0.1674   0.2298   0.0581   300
+
+--- L3 = 12 MiB SCENARIO ---
+source: experiments/results_l3_12_eval.json
+
+configuration                                       MiB      WER   wer_lo   wer_hi      CER     n
+------------------------------------------------------------------------------------------------
+L3=12 qat'iy kanal (45%/qatlam)                   650.9   0.3393   0.2673   0.4317   0.1416   300
+L3=12 o'q gibridi (kanal L0-5, rank L6+)          651.2   0.3026   0.2658   0.3399   0.0968   300
+L3=12 yumshoq (tau=0.90, 33%)                     674.9   0.2365   0.2026   0.2725   0.0847   300
+
+--- STAGE ORDER A/B ---
+source: experiments/results_whisper_order_ab.json
+
+configuration                                       MiB      WER   wer_lo   wer_hi      CER     n
+------------------------------------------------------------------------------------------------
+pruneFirst                                            -   0.1842        -        -        -     -
+quantFirst                                            -   0.1888        -        -        -     -
+
+--- BIAS CORRECTION ABLATION ---
+source: experiments/results_bias_correction_e2e.json
+
+configuration                                       MiB      WER   wer_lo   wer_hi      CER     n
+------------------------------------------------------------------------------------------------
+rtn                                                   -   0.1858        -        -   0.0560     -
+rtn+bias                                              -   0.1798        -        -   0.0527     -
+
+--- PRUNING x QUANTIZER (2x2) ---
+source: experiments/results_gptq_pruning.json
+
+configuration                                       MiB      WER   wer_lo   wer_hi      CER     n
+------------------------------------------------------------------------------------------------
+A: GPTQ yolg'iz                                   299.8   0.1107   0.0718   0.1564   0.0177     -
+B: qisqartirish + GPTQ                            267.0   0.1110   0.0714   0.1549   0.0192     -

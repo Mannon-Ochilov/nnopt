@@ -1,0 +1,16 @@
+{
+  "FP32": {
+    "ppl": 230.12170951522293,
+    "note": "asl model"
+  },
+  "INT8 per-channel": {
+    "ppl": 230.89998657739244,
+    "note": "majburiy bosqich"
+  },
+  "past-rank + INT8": {
+    "ppl": 231.64151307755986,
+    "rank": 1487,
+    "eloc_mean": 0.14829921835415183,
+    "eloc_max": 0.30785410842037986
+  }
+}

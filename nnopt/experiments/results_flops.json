@@ -1,0 +1,79 @@
+[
+  {
+    "variant": "FP32",
+    "path": "models/uzbek_stt_v1_onnx/encoder_model.onnx",
+    "macs": 455288832000,
+    "tensors": 145,
+    "mib": 1172.187879562378,
+    "ms": 12120.478
+  },
+  {
+    "variant": "INT8 per-tensor",
+    "path": "models/_enc_v2/enc_int8.onnx",
+    "macs": 455288832000,
+    "tensors": 145,
+    "mib": 298.7399835586548,
+    "wer": 0.18154680504680504,
+    "ms": 7061.783
+  },
+  {
+    "variant": "GPTQ (qisqartirishsiz)",
+    "path": "models/_gptq/enc_gptq_only.onnx",
+    "macs": 455288832000,
+    "tensors": 145,
+    "mib": 299.7954034805298,
+    "wer": 0.1847110297110297,
+    "ms": 7080.759
+  },
+  {
+    "variant": "qisqartirish + GPTQ, tau=0.99",
+    "path": "models/_gptq/enc_gptq_pruned.onnx",
+    "macs": 403878912000,
+    "tensors": 145,
+    "mib": 266.9661407470703,
+    "wer": 0.18326229326229324,
+    "ms": 6728.077
+  },
+  {
+    "variant": "qisqartirish + GPTQ, tau=0.97",
+    "path": "models/_ratio_sweep/enc_bizniki_tau0.97_gptq.onnx",
+    "macs": 394481664000,
+    "tensors": 145,
+    "mib": 260.965256690979,
+    "wer": 0.1916335793835794
+  },
+  {
+    "variant": "qisqartirish + GPTQ, tau=0.95",
+    "path": "models/_ratio_sweep/enc_bizniki_tau0.95_gptq.onnx",
+    "macs": 384156672000,
+    "tensors": 145,
+    "mib": 254.37194442749023,
+    "wer": 0.2005970695970696
+  },
+  {
+    "variant": "qisqartirish + GPTQ, tau=0.93",
+    "path": "models/_ratio_sweep/enc_bizniki_tau0.93_gptq.onnx",
+    "macs": 373502976000,
+    "tensors": 145,
+    "mib": 247.56873607635498,
+    "wer": 0.2179253524253524
+  },
+  {
+    "variant": "past-rank, optimal taqsimot",
+    "path": "models/_alloc/enc_greedy.onnx",
+    "macs": 304057344000,
+    "tensors": 193,
+    "mib": 202.64256763458252,
+    "wer": 0.3055709290709291,
+    "ms": 6300.519
+  },
+  {
+    "variant": "past-rank, bir xil taqsimot",
+    "path": "models/_alloc/enc_uniform.onnx",
+    "macs": 304072704000,
+    "tensors": 193,
+    "mib": 202.65229606628418,
+    "wer": 0.35125390350390345,
+    "ms": 6294.763
+  }
+]

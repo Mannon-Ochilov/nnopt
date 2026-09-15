@@ -1,0 +1,146 @@
+[
+  {
+    "layer": 0,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 1,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 2,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 3,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 4,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 5,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 6,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 7,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 8,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 9,
+    "kept": 3686,
+    "tau": 0.999,
+    "cached": false
+  },
+  {
+    "layer": 10,
+    "kept": 3686,
+    "tau": 0.9931435546875,
+    "cached": false
+  },
+  {
+    "layer": 11,
+    "kept": 3686,
+    "tau": 0.9619091796874999,
+    "cached": false
+  },
+  {
+    "layer": 12,
+    "kept": 3686,
+    "tau": 0.9521484375,
+    "cached": false
+  },
+  {
+    "layer": 13,
+    "kept": 3686,
+    "tau": 0.93750732421875,
+    "cached": false
+  },
+  {
+    "layer": 14,
+    "kept": 3686,
+    "tau": 0.91408154296875,
+    "cached": false
+  },
+  {
+    "layer": 15,
+    "kept": 3686,
+    "tau": 0.8799189453125,
+    "cached": false
+  },
+  {
+    "layer": 16,
+    "kept": 3686,
+    "tau": 0.85161279296875,
+    "cached": false
+  },
+  {
+    "layer": 17,
+    "kept": 3686,
+    "tau": 0.8535649414062499,
+    "cached": false
+  },
+  {
+    "layer": 18,
+    "kept": 3686,
+    "tau": 0.81647412109375,
+    "cached": false
+  },
+  {
+    "layer": 19,
+    "kept": 3686,
+    "tau": 0.78816796875,
+    "cached": false
+  },
+  {
+    "layer": 20,
+    "kept": 3686,
+    "tau": 0.76767041015625,
+    "cached": false
+  },
+  {
+    "layer": 21,
+    "kept": 3686,
+    "tau": 0.7696225585937501,
+    "cached": false
+  },
+  {
+    "layer": 22,
+    "kept": 3686,
+    "tau": 0.77352685546875,
+    "cached": false
+  },
+  {
+    "layer": 23,
+    "kept": 3686,
+    "tau": 0.82233056640625,
+    "cached": false
+  }
+]

@@ -1,0 +1,562 @@
+[
+  {
+    "layer": 0,
+    "arm": "tau=0.99",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 0,
+    "arm": "tau=0.95",
+    "removed": 0.0025462962962963243,
+    "e_loc": 0.022111223450182686,
+    "e_loc_centered": 0.021959561476887164,
+    "mean_share": 0.013671052183502314
+  },
+  {
+    "layer": 0,
+    "arm": "tau=0.9",
+    "removed": 0.005671296296296258,
+    "e_loc": 0.036586983150824585,
+    "e_loc_centered": 0.03642407628216628,
+    "mean_share": 0.008885356257269364
+  },
+  {
+    "layer": 0,
+    "arm": "10% majburiy kosinus",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.09728367120835671,
+    "e_loc_centered": 0.09551366211534355,
+    "mean_share": 0.03605758347284336
+  },
+  {
+    "layer": 0,
+    "arm": "10% fluktuatsiya",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.0908353285488824,
+    "e_loc_centered": 0.0879459960218173,
+    "mean_share": 0.06260515492580442
+  },
+  {
+    "layer": 0,
+    "arm": "20% majburiy kosinus",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.14386444018421846,
+    "e_loc_centered": 0.1398603402689835,
+    "mean_share": 0.054890255768057665
+  },
+  {
+    "layer": 0,
+    "arm": "20% fluktuatsiya",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.13969930755377793,
+    "e_loc_centered": 0.13351334662396014,
+    "mean_share": 0.08660031588045458
+  },
+  {
+    "layer": 0,
+    "arm": "30% majburiy kosinus",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.1947062042952798,
+    "e_loc_centered": 0.18809330501520513,
+    "mean_share": 0.06677343214907679
+  },
+  {
+    "layer": 0,
+    "arm": "30% fluktuatsiya",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.18778455374332165,
+    "e_loc_centered": 0.17841205438607033,
+    "mean_share": 0.09733073518877358
+  },
+  {
+    "layer": 0,
+    "arm": "INT8 (kesishsiz)",
+    "removed": 0.0,
+    "e_loc": 0.004730021283095089,
+    "e_loc_centered": 0.0046572699655853065,
+    "mean_share": 0.03052495028989738
+  },
+  {
+    "layer": 4,
+    "arm": "tau=0.99",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 4,
+    "arm": "tau=0.95",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 4,
+    "arm": "tau=0.9",
+    "removed": 0.00011574074074072183,
+    "e_loc": 0.009743247182793834,
+    "e_loc_centered": 0.009656475671310632,
+    "mean_share": 0.01773230721761011
+  },
+  {
+    "layer": 4,
+    "arm": "10% majburiy kosinus",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.23364522799018328,
+    "e_loc_centered": 0.23241030699839701,
+    "mean_share": 0.010542971013205941
+  },
+  {
+    "layer": 4,
+    "arm": "10% fluktuatsiya",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.2166907494114689,
+    "e_loc_centered": 0.21546926824461396,
+    "mean_share": 0.011242182127518928
+  },
+  {
+    "layer": 4,
+    "arm": "20% majburiy kosinus",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.35859217351669664,
+    "e_loc_centered": 0.3558849572973834,
+    "mean_share": 0.015042141246755557
+  },
+  {
+    "layer": 4,
+    "arm": "20% fluktuatsiya",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.3155748800832046,
+    "e_loc_centered": 0.31336935549644207,
+    "mean_share": 0.01392897609108495
+  },
+  {
+    "layer": 4,
+    "arm": "30% majburiy kosinus",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.3948630213047661,
+    "e_loc_centered": 0.39356189749216397,
+    "mean_share": 0.006579396187524088
+  },
+  {
+    "layer": 4,
+    "arm": "30% fluktuatsiya",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.3971367902491922,
+    "e_loc_centered": 0.39379111290481666,
+    "mean_share": 0.016778020084210678
+  },
+  {
+    "layer": 4,
+    "arm": "INT8 (kesishsiz)",
+    "removed": 0.0,
+    "e_loc": 0.00774555184860867,
+    "e_loc_centered": 0.0076282374996886615,
+    "mean_share": 0.030062654788318266
+  },
+  {
+    "layer": 8,
+    "arm": "tau=0.99",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 8,
+    "arm": "tau=0.95",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 8,
+    "arm": "tau=0.9",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 8,
+    "arm": "10% majburiy kosinus",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.2743946146039795,
+    "e_loc_centered": 0.27043067790482794,
+    "mean_share": 0.028683543649117627
+  },
+  {
+    "layer": 8,
+    "arm": "10% fluktuatsiya",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.20639070743540633,
+    "e_loc_centered": 0.20394526798950696,
+    "mean_share": 0.023556796408378638
+  },
+  {
+    "layer": 8,
+    "arm": "20% majburiy kosinus",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.304412958245022,
+    "e_loc_centered": 0.30261669340872377,
+    "mean_share": 0.011766681625787711
+  },
+  {
+    "layer": 8,
+    "arm": "20% fluktuatsiya",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.30705465958878786,
+    "e_loc_centered": 0.302604694804407,
+    "mean_share": 0.02877480780255504
+  },
+  {
+    "layer": 8,
+    "arm": "30% majburiy kosinus",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.3848614398149344,
+    "e_loc_centered": 0.38238219848587895,
+    "mean_share": 0.012842314418875431
+  },
+  {
+    "layer": 8,
+    "arm": "30% fluktuatsiya",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.38883345305871786,
+    "e_loc_centered": 0.38202882283430106,
+    "mean_share": 0.034693976379485576
+  },
+  {
+    "layer": 8,
+    "arm": "INT8 (kesishsiz)",
+    "removed": 0.0,
+    "e_loc": 0.00850688254479541,
+    "e_loc_centered": 0.00833377256441124,
+    "mean_share": 0.04028470761477649
+  },
+  {
+    "layer": 12,
+    "arm": "tau=0.99",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 12,
+    "arm": "tau=0.95",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 12,
+    "arm": "tau=0.9",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 12,
+    "arm": "10% majburiy kosinus",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.3210332020211663,
+    "e_loc_centered": 0.3118255007339916,
+    "mean_share": 0.05654029593831564
+  },
+  {
+    "layer": 12,
+    "arm": "10% fluktuatsiya",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.21553062720684452,
+    "e_loc_centered": 0.21249335648769344,
+    "mean_share": 0.027985535571441178
+  },
+  {
+    "layer": 12,
+    "arm": "20% majburiy kosinus",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.3186796395386424,
+    "e_loc_centered": 0.3160652414468803,
+    "mean_share": 0.01634038521134084
+  },
+  {
+    "layer": 12,
+    "arm": "20% fluktuatsiya",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.3213390067235932,
+    "e_loc_centered": 0.3158121740482329,
+    "mean_share": 0.03410294738273533
+  },
+  {
+    "layer": 12,
+    "arm": "30% majburiy kosinus",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.4040710264926202,
+    "e_loc_centered": 0.40020626530498615,
+    "mean_share": 0.019037637282487255
+  },
+  {
+    "layer": 12,
+    "arm": "30% fluktuatsiya",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.4081902950690694,
+    "e_loc_centered": 0.39982991327432266,
+    "mean_share": 0.040543663014084
+  },
+  {
+    "layer": 12,
+    "arm": "INT8 (kesishsiz)",
+    "removed": 0.0,
+    "e_loc": 0.008658464724950934,
+    "e_loc_centered": 0.008517532300398754,
+    "mean_share": 0.03228873983927882
+  },
+  {
+    "layer": 16,
+    "arm": "tau=0.99",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 16,
+    "arm": "tau=0.95",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 16,
+    "arm": "tau=0.9",
+    "removed": 0.00011574074074072183,
+    "e_loc": 0.009513118597843257,
+    "e_loc_centered": 0.009430180221407,
+    "mean_share": 0.017360623456868594
+  },
+  {
+    "layer": 16,
+    "arm": "10% majburiy kosinus",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.2694722302581937,
+    "e_loc_centered": 0.2620508890557076,
+    "mean_share": 0.05432209679523161
+  },
+  {
+    "layer": 16,
+    "arm": "10% fluktuatsiya",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.202109801113046,
+    "e_loc_centered": 0.19846412887932052,
+    "mean_share": 0.03575078254378912
+  },
+  {
+    "layer": 16,
+    "arm": "20% majburiy kosinus",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.29427157842617013,
+    "e_loc_centered": 0.29139949310921565,
+    "mean_share": 0.019424706807916362
+  },
+  {
+    "layer": 16,
+    "arm": "20% fluktuatsiya",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.29760817305029574,
+    "e_loc_centered": 0.2911715652889734,
+    "mean_share": 0.042787823251564966
+  },
+  {
+    "layer": 16,
+    "arm": "30% majburiy kosinus",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.3741473443859787,
+    "e_loc_centered": 0.37060715460094296,
+    "mean_share": 0.018834510863256274
+  },
+  {
+    "layer": 16,
+    "arm": "30% fluktuatsiya",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.38039753745328436,
+    "e_loc_centered": 0.37045580809543927,
+    "mean_share": 0.051587165133365254
+  },
+  {
+    "layer": 16,
+    "arm": "INT8 (kesishsiz)",
+    "removed": 0.0,
+    "e_loc": 0.008700282195886996,
+    "e_loc_centered": 0.008527011194385231,
+    "mean_share": 0.03943449259055078
+  },
+  {
+    "layer": 20,
+    "arm": "tau=0.99",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 20,
+    "arm": "tau=0.95",
+    "removed": 0.00011574074074072183,
+    "e_loc": 0.009183042343554836,
+    "e_loc_centered": 0.00914685917152483,
+    "mean_share": 0.007864907057823504
+  },
+  {
+    "layer": 20,
+    "arm": "tau=0.9",
+    "removed": 0.00023148148148144365,
+    "e_loc": 0.01725009594405184,
+    "e_loc_centered": 0.016674813183053496,
+    "mean_share": 0.0655868877680471
+  },
+  {
+    "layer": 20,
+    "arm": "10% majburiy kosinus",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.2198940918411092,
+    "e_loc_centered": 0.21491701162052157,
+    "mean_share": 0.04475567845018605
+  },
+  {
+    "layer": 20,
+    "arm": "10% fluktuatsiya",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.17505901079356645,
+    "e_loc_centered": 0.17065647182150173,
+    "mean_share": 0.04966530404438473
+  },
+  {
+    "layer": 20,
+    "arm": "20% majburiy kosinus",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.38795251513474766,
+    "e_loc_centered": 0.3796804799541136,
+    "mean_share": 0.04218993564396846
+  },
+  {
+    "layer": 20,
+    "arm": "20% fluktuatsiya",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.25965804776192614,
+    "e_loc_centered": 0.25331580287313604,
+    "mean_share": 0.04825414880510298
+  },
+  {
+    "layer": 20,
+    "arm": "30% majburiy kosinus",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.327363316834498,
+    "e_loc_centered": 0.322901101517199,
+    "mean_share": 0.027075749576146602
+  },
+  {
+    "layer": 20,
+    "arm": "30% fluktuatsiya",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.3311945339293347,
+    "e_loc_centered": 0.32254102479876523,
+    "mean_share": 0.051573670758984946
+  },
+  {
+    "layer": 20,
+    "arm": "INT8 (kesishsiz)",
+    "removed": 0.0,
+    "e_loc": 0.008401712528629165,
+    "e_loc_centered": 0.008170440613697752,
+    "mean_share": 0.05429579530018361
+  },
+  {
+    "layer": 24,
+    "arm": "tau=0.99",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 24,
+    "arm": "tau=0.95",
+    "removed": 0.0,
+    "e_loc": 0.0,
+    "e_loc_centered": 0.0,
+    "mean_share": 0.0
+  },
+  {
+    "layer": 24,
+    "arm": "tau=0.9",
+    "removed": 0.0016203703703703276,
+    "e_loc": 0.05479322224459006,
+    "e_loc_centered": 0.053326213365154064,
+    "mean_share": 0.052830270058103
+  },
+  {
+    "layer": 24,
+    "arm": "10% majburiy kosinus",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.1989731654252421,
+    "e_loc_centered": 0.19530067711340054,
+    "mean_share": 0.03657373969017748
+  },
+  {
+    "layer": 24,
+    "arm": "10% fluktuatsiya",
+    "removed": 0.09999999999999998,
+    "e_loc": 0.15429637319007386,
+    "e_loc_centered": 0.1454338052236981,
+    "mean_share": 0.11157801095957241
+  },
+  {
+    "layer": 24,
+    "arm": "20% majburiy kosinus",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.33386455562743605,
+    "e_loc_centered": 0.3260878442909536,
+    "mean_share": 0.0460434609720702
+  },
+  {
+    "layer": 24,
+    "arm": "20% fluktuatsiya",
+    "removed": 0.19999999999999996,
+    "e_loc": 0.22938305947043997,
+    "e_loc_centered": 0.21332641710487218,
+    "mean_share": 0.13509860694497425
+  },
+  {
+    "layer": 24,
+    "arm": "30% majburiy kosinus",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.2850110075826684,
+    "e_loc_centered": 0.28179205586761485,
+    "mean_share": 0.02246070501411016
+  },
+  {
+    "layer": 24,
+    "arm": "30% fluktuatsiya",
+    "removed": 0.30000000000000004,
+    "e_loc": 0.29933500221853715,
+    "e_loc_centered": 0.2811361812338539,
+    "mean_share": 0.11789867144437692
+  },
+  {
+    "layer": 24,
+    "arm": "INT8 (kesishsiz)",
+    "removed": 0.0,
+    "e_loc": 0.00884856362503044,
+    "e_loc_centered": 0.008531152168639458,
+    "mean_share": 0.07045628044755467
+  }
+]

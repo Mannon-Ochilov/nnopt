@@ -1,0 +1,1379 @@
+[
+  {
+    "name": "/model/decoder/layers.0/self_attn/q_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.23241861424939922,
+      "svd_int8": 0.23269978547134887,
+      "cur_fp32": 0.6755792192324909,
+      "cur_int8": 0.6755271328941671
+    },
+    "quant_damage": {
+      "svd": 0.00028117122194964983,
+      "cur": -5.2086338323764636e-05
+    },
+    "secs": 11.47873330116272
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/q_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.35339220074566435,
+      "svd_int8": 0.353510169750645,
+      "cur_fp32": 0.8079336859829414,
+      "cur_int8": 0.8083138204052277
+    },
+    "quant_damage": {
+      "svd": 0.00011796900498062257,
+      "cur": 0.00038013442228634897
+    },
+    "secs": 10.8047034740448
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/q_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.44317774348448985,
+      "svd_int8": 0.443245312667684,
+      "cur_fp32": 0.8880331502895508,
+      "cur_int8": 0.8879953138714941
+    },
+    "quant_damage": {
+      "svd": 6.75691831941716e-05,
+      "cur": -3.783641805665816e-05
+    },
+    "secs": 11.119448900222778
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/k_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.22021288075105305,
+      "svd_int8": 0.22048209535704785,
+      "cur_fp32": 0.6634623096325751,
+      "cur_int8": 0.6645247836818549
+    },
+    "quant_damage": {
+      "svd": 0.00026921460599479974,
+      "cur": 0.0010624740492797269
+    },
+    "secs": 11.261926412582397
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/k_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.34512269111348776,
+      "svd_int8": 0.3452187109473587,
+      "cur_fp32": 0.7869519862741794,
+      "cur_int8": 0.7867422049729272
+    },
+    "quant_damage": {
+      "svd": 9.60198338709195e-05,
+      "cur": -0.00020978130125215433
+    },
+    "secs": 10.987121343612671
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/k_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.4342938635796833,
+      "svd_int8": 0.43437321642724036,
+      "cur_fp32": 0.8839410942667417,
+      "cur_int8": 0.8844246129927023
+    },
+    "quant_damage": {
+      "svd": 7.935284755705707e-05,
+      "cur": 0.00048351872596053
+    },
+    "secs": 10.878103256225586
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/v_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.28677796603117844,
+      "svd_int8": 0.2869474013317832,
+      "cur_fp32": 0.78040901734008,
+      "cur_int8": 0.781022590223747
+    },
+    "quant_damage": {
+      "svd": 0.00016943530060475887,
+      "cur": 0.0006135728836670351
+    },
+    "secs": 11.15992283821106
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/v_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.39824433388839026,
+      "svd_int8": 0.3982884268254524,
+      "cur_fp32": 0.8929378797293891,
+      "cur_int8": 0.8929173040447913
+    },
+    "quant_damage": {
+      "svd": 4.4092937062145676e-05,
+      "cur": -2.0575684597790023e-05
+    },
+    "secs": 13.921663999557495
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/v_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.48877652064444094,
+      "svd_int8": 0.4888392530640994,
+      "cur_fp32": 0.9625272784495719,
+      "cur_int8": 0.9626456868381935
+    },
+    "quant_damage": {
+      "svd": 6.273241965848442e-05,
+      "cur": 0.00011840838862164915
+    },
+    "secs": 11.581409454345703
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/out_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.3344905917786567,
+      "svd_int8": 0.3347159601173164,
+      "cur_fp32": 0.6966132942413208,
+      "cur_int8": 0.7012010923373198
+    },
+    "quant_damage": {
+      "svd": 0.00022536833865971495,
+      "cur": 0.004587798095998963
+    },
+    "secs": 10.039085149765015
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/out_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.45924283109210584,
+      "svd_int8": 0.4593614825274092,
+      "cur_fp32": 0.8435171948947178,
+      "cur_int8": 0.8458313937957633
+    },
+    "quant_damage": {
+      "svd": 0.00011865143530337408,
+      "cur": 0.002314198901045561
+    },
+    "secs": 9.683773756027222
+  },
+  {
+    "name": "/model/decoder/layers.0/self_attn/out_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.5796709289970006,
+      "svd_int8": 0.5797260284686747,
+      "cur_fp32": 0.9215533258367883,
+      "cur_int8": 0.923681265869466
+    },
+    "quant_damage": {
+      "svd": 5.509947167414708e-05,
+      "cur": 0.0021279400326776887
+    },
+    "secs": 10.553600788116455
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/q_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.062291048126239465,
+      "svd_int8": 0.06363865115646165,
+      "cur_fp32": 0.35598209174786616,
+      "cur_int8": 0.35623613310367824
+    },
+    "quant_damage": {
+      "svd": 0.0013476030302221886,
+      "cur": 0.00025404135581208465
+    },
+    "secs": 12.18171739578247
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/q_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.19296478534884873,
+      "svd_int8": 0.19336348879669557,
+      "cur_fp32": 0.6005431706943972,
+      "cur_int8": 0.601732436348757
+    },
+    "quant_damage": {
+      "svd": 0.0003987034478468432,
+      "cur": 0.001189265654359728
+    },
+    "secs": 10.78322720527649
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/q_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.3191203404229986,
+      "svd_int8": 0.3192727452147335,
+      "cur_fp32": 0.7948669782328968,
+      "cur_int8": 0.7956096376270154
+    },
+    "quant_damage": {
+      "svd": 0.00015240479173489474,
+      "cur": 0.000742659394118661
+    },
+    "secs": 10.423066139221191
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/k_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.10792643740735511,
+      "svd_int8": 0.10883509752208458,
+      "cur_fp32": 0.3927806037123826,
+      "cur_int8": 0.3934238824590154
+    },
+    "quant_damage": {
+      "svd": 0.0009086601147294676,
+      "cur": 0.0006432787466327805
+    },
+    "secs": 16.467831134796143
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/k_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.2419019932984649,
+      "svd_int8": 0.2423057749356599,
+      "cur_fp32": 0.5698369568950881,
+      "cur_int8": 0.5723787154884243
+    },
+    "quant_damage": {
+      "svd": 0.0004037816371950109,
+      "cur": 0.002541758593336274
+    },
+    "secs": 16.327768325805664
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/k_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.35677872333538463,
+      "svd_int8": 0.35694594315099987,
+      "cur_fp32": 0.7530212692579719,
+      "cur_int8": 0.753676436140677
+    },
+    "quant_damage": {
+      "svd": 0.00016721981561523824,
+      "cur": 0.0006551668827051715
+    },
+    "secs": 16.88844084739685
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/v_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.1902192100237791,
+      "svd_int8": 0.19059383125300267,
+      "cur_fp32": 0.6108504940387763,
+      "cur_int8": 0.6131318499625263
+    },
+    "quant_damage": {
+      "svd": 0.0003746212292235762,
+      "cur": 0.002281355923750006
+    },
+    "secs": 17.001537322998047
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/v_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.2864635852294613,
+      "svd_int8": 0.2867695247657967,
+      "cur_fp32": 0.7175132616231725,
+      "cur_int8": 0.7183463393422462
+    },
+    "quant_damage": {
+      "svd": 0.00030593953633539783,
+      "cur": 0.0008330777190737049
+    },
+    "secs": 16.91045570373535
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/v_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.4120686657223728,
+      "svd_int8": 0.4121040512269964,
+      "cur_fp32": 0.8774191951990619,
+      "cur_int8": 0.8776676452963998
+    },
+    "quant_damage": {
+      "svd": 3.538550462361956e-05,
+      "cur": 0.0002484500973379822
+    },
+    "secs": 16.780733108520508
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/out_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.13765028883772315,
+      "svd_int8": 0.138291903636838,
+      "cur_fp32": 0.5430909741188609,
+      "cur_int8": 0.5426904801352309
+    },
+    "quant_damage": {
+      "svd": 0.0006416147991148424,
+      "cur": -0.00040049398362995703
+    },
+    "secs": 8.346627473831177
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/out_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.21039503698561063,
+      "svd_int8": 0.21061163947587067,
+      "cur_fp32": 0.6396534117594214,
+      "cur_int8": 0.6410835606266095
+    },
+    "quant_damage": {
+      "svd": 0.0002166024902600372,
+      "cur": 0.0014301488671881746
+    },
+    "secs": 8.218140840530396
+  },
+  {
+    "name": "/model/decoder/layers.0/encoder_attn/out_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.2611305761609063,
+      "svd_int8": 0.26128988249983903,
+      "cur_fp32": 0.7590902312861482,
+      "cur_int8": 0.7598286330201486
+    },
+    "quant_damage": {
+      "svd": 0.00015930633893274093,
+      "cur": 0.0007384017340004156
+    },
+    "secs": 8.13301968574524
+  },
+  {
+    "name": "/model/decoder/layers.0/fc1/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 2112100,
+    "bytes_cur": 1968628,
+    "eloc": {
+      "svd_fp32": 0.01249965064318935,
+      "svd_int8": 0.013242232592959462,
+      "cur_fp32": 0.1435024738684732,
+      "cur_int8": 0.14466437267148619
+    },
+    "quant_damage": {
+      "svd": 0.0007425819497701124,
+      "cur": 0.001161898803012984
+    },
+    "secs": 13.502942085266113
+  },
+  {
+    "name": "/model/decoder/layers.0/fc1/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 1118044,
+    "bytes_cur": 1071928,
+    "eloc": {
+      "svd_fp32": 0.0759162181288532,
+      "svd_int8": 0.0760163406979654,
+      "cur_fp32": 0.27435503441064046,
+      "cur_int8": 0.2744967279222153
+    },
+    "quant_damage": {
+      "svd": 0.00010012256911219597,
+      "cur": 0.00014169351157483634
+    },
+    "secs": 13.42061471939087
+  },
+  {
+    "name": "/model/decoder/layers.0/fc1/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 539032,
+    "bytes_cur": 528784,
+    "eloc": {
+      "svd_fp32": 0.12153497811222222,
+      "svd_int8": 0.12158256490499302,
+      "cur_fp32": 0.4250948195221283,
+      "cur_int8": 0.4250960614881219
+    },
+    "quant_damage": {
+      "svd": 4.7586792770795694e-05,
+      "cur": 1.2419659936035998e-06
+    },
+    "secs": 13.165103673934937
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/q_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.3726499889031717,
+      "svd_int8": 0.3728200496162621,
+      "cur_fp32": 0.7280254657220577,
+      "cur_int8": 0.7291718169056408
+    },
+    "quant_damage": {
+      "svd": 0.00017006071309039195,
+      "cur": 0.001146351183583083
+    },
+    "secs": 11.423831224441528
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/q_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.5480477723108423,
+      "svd_int8": 0.5480946285604703,
+      "cur_fp32": 0.8554653652174019,
+      "cur_int8": 0.8556624333018628
+    },
+    "quant_damage": {
+      "svd": 4.685624962796897e-05,
+      "cur": 0.00019706808446084967
+    },
+    "secs": 11.319980144500732
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/q_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.6426055426853478,
+      "svd_int8": 0.642643913020415,
+      "cur_fp32": 0.9329511844069421,
+      "cur_int8": 0.9330622519898765
+    },
+    "quant_damage": {
+      "svd": 3.837033506726151e-05,
+      "cur": 0.00011106758293433217
+    },
+    "secs": 11.14032530784607
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/k_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.38961763093714663,
+      "svd_int8": 0.38979558331262193,
+      "cur_fp32": 0.7453554935332256,
+      "cur_int8": 0.7467075490232327
+    },
+    "quant_damage": {
+      "svd": 0.00017795237547529874,
+      "cur": 0.0013520554900070536
+    },
+    "secs": 11.638335227966309
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/k_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.559028237862436,
+      "svd_int8": 0.5590642298253213,
+      "cur_fp32": 0.8617140227640893,
+      "cur_int8": 0.8619422462188145
+    },
+    "quant_damage": {
+      "svd": 3.59919628852845e-05,
+      "cur": 0.00022822345472528482
+    },
+    "secs": 13.5501389503479
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/k_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.6501556256188629,
+      "svd_int8": 0.6501619528914232,
+      "cur_fp32": 0.9349414636312793,
+      "cur_int8": 0.9350195230956589
+    },
+    "quant_damage": {
+      "svd": 6.327272560335828e-06,
+      "cur": 7.805946437966504e-05
+    },
+    "secs": 11.249454498291016
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/v_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.4298741151327869,
+      "svd_int8": 0.42998708624833687,
+      "cur_fp32": 0.7948614506274919,
+      "cur_int8": 0.7952685519388542
+    },
+    "quant_damage": {
+      "svd": 0.00011297111554997574,
+      "cur": 0.0004071013113622346
+    },
+    "secs": 11.37089490890503
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/v_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.5971937624221414,
+      "svd_int8": 0.5972666331470814,
+      "cur_fp32": 0.9008734749130439,
+      "cur_int8": 0.9010221494334067
+    },
+    "quant_damage": {
+      "svd": 7.287072493999958e-05,
+      "cur": 0.0001486745203628237
+    },
+    "secs": 11.178476572036743
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/v_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.6874534326478036,
+      "svd_int8": 0.6874878222427201,
+      "cur_fp32": 0.952861543279397,
+      "cur_int8": 0.9528774648120927
+    },
+    "quant_damage": {
+      "svd": 3.438959491652849e-05,
+      "cur": 1.5921532695695184e-05
+    },
+    "secs": 11.003827810287476
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/out_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.3911654554780263,
+      "svd_int8": 0.3912450215770261,
+      "cur_fp32": 0.7707398511492359,
+      "cur_int8": 0.7711442107340719
+    },
+    "quant_damage": {
+      "svd": 7.956609899983924e-05,
+      "cur": 0.0004043595848359782
+    },
+    "secs": 10.530205011367798
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/out_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.5527519361621168,
+      "svd_int8": 0.5528759019861605,
+      "cur_fp32": 0.8797640948617056,
+      "cur_int8": 0.879969972535958
+    },
+    "quant_damage": {
+      "svd": 0.0001239658240437258,
+      "cur": 0.00020587767425239711
+    },
+    "secs": 10.603643655776978
+  },
+  {
+    "name": "/model/decoder/layers.12/self_attn/out_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.6561874351827787,
+      "svd_int8": 0.6561501100038872,
+      "cur_fp32": 0.950601341336443,
+      "cur_int8": 0.9506875795078442
+    },
+    "quant_damage": {
+      "svd": -3.732517889143416e-05,
+      "cur": 8.623817140118728e-05
+    },
+    "secs": 10.55989122390747
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/q_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.3194420516206869,
+      "svd_int8": 0.3196074935402301,
+      "cur_fp32": 0.6573237848238026,
+      "cur_int8": 0.657795141469882
+    },
+    "quant_damage": {
+      "svd": 0.00016544191954320775,
+      "cur": 0.00047135664607944605
+    },
+    "secs": 11.332442283630371
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/q_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.5024883299844528,
+      "svd_int8": 0.5025971506782541,
+      "cur_fp32": 0.8111404122005271,
+      "cur_int8": 0.8112423523274598
+    },
+    "quant_damage": {
+      "svd": 0.00010882069380124815,
+      "cur": 0.00010194012693265364
+    },
+    "secs": 10.942586183547974
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/q_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.6089654356447649,
+      "svd_int8": 0.6090098599002156,
+      "cur_fp32": 0.8991527800122076,
+      "cur_int8": 0.899183358499512
+    },
+    "quant_damage": {
+      "svd": 4.44242554507035e-05,
+      "cur": 3.0578487304477875e-05
+    },
+    "secs": 10.805044412612915
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/k_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.18230290821434153,
+      "svd_int8": 0.18239141009079096,
+      "cur_fp32": 0.5779196261643113,
+      "cur_int8": 0.5786579192703171
+    },
+    "quant_damage": {
+      "svd": 8.850187644943164e-05,
+      "cur": 0.0007382931060058162
+    },
+    "secs": 16.662010669708252
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/k_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.28868810070753925,
+      "svd_int8": 0.2887384092294674,
+      "cur_fp32": 0.692849762216931,
+      "cur_int8": 0.6924964155345164
+    },
+    "quant_damage": {
+      "svd": 5.030852192816626e-05,
+      "cur": -0.00035334668241460143
+    },
+    "secs": 16.753212928771973
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/k_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.3939473513020347,
+      "svd_int8": 0.394124430379473,
+      "cur_fp32": 0.8140450368380462,
+      "cur_int8": 0.8146985078669441
+    },
+    "quant_damage": {
+      "svd": 0.00017707907743830242,
+      "cur": 0.0006534710288979007
+    },
+    "secs": 17.271398305892944
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/v_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.1769668048767806,
+      "svd_int8": 0.17728786622764503,
+      "cur_fp32": 0.6284246646417276,
+      "cur_int8": 0.6313385383137627
+    },
+    "quant_damage": {
+      "svd": 0.0003210613508644322,
+      "cur": 0.0029138736720351055
+    },
+    "secs": 17.80596685409546
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/v_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.26587306455286674,
+      "svd_int8": 0.26607799208683147,
+      "cur_fp32": 0.7504878891485673,
+      "cur_int8": 0.7515847870713053
+    },
+    "quant_damage": {
+      "svd": 0.00020492753396472718,
+      "cur": 0.0010968979227379272
+    },
+    "secs": 16.531013011932373
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/v_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.4008244237282273,
+      "svd_int8": 0.4009002426897766,
+      "cur_fp32": 0.8371051021868458,
+      "cur_int8": 0.8378508868067563
+    },
+    "quant_damage": {
+      "svd": 7.581896154928991e-05,
+      "cur": 0.0007457846199105944
+    },
+    "secs": 16.48539090156555
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/out_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.3586986811160258,
+      "svd_int8": 0.3588460143902513,
+      "cur_fp32": 0.6788946816563467,
+      "cur_int8": 0.6801858188153075
+    },
+    "quant_damage": {
+      "svd": 0.0001473332742255029,
+      "cur": 0.0012911371589607867
+    },
+    "secs": 9.980285167694092
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/out_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.5179864739716603,
+      "svd_int8": 0.5179874006024179,
+      "cur_fp32": 0.8509769456721523,
+      "cur_int8": 0.8513120347945291
+    },
+    "quant_damage": {
+      "svd": 9.26630757569491e-07,
+      "cur": 0.000335089122376786
+    },
+    "secs": 9.904518604278564
+  },
+  {
+    "name": "/model/decoder/layers.12/encoder_attn/out_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.6482049491985767,
+      "svd_int8": 0.648202378367015,
+      "cur_fp32": 0.9385179106680893,
+      "cur_int8": 0.9386389607912077
+    },
+    "quant_damage": {
+      "svd": -2.570831561743425e-06,
+      "cur": 0.00012105012311836028
+    },
+    "secs": 9.800976514816284
+  },
+  {
+    "name": "/model/decoder/layers.12/fc1/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 2112100,
+    "bytes_cur": 1968628,
+    "eloc": {
+      "svd_fp32": 0.1436154629275039,
+      "svd_int8": 0.14368880996271524,
+      "cur_fp32": 0.3225731483635909,
+      "cur_int8": 0.32318490790820054
+    },
+    "quant_damage": {
+      "svd": 7.334703521133523e-05,
+      "cur": 0.0006117595446096247
+    },
+    "secs": 13.110141515731812
+  },
+  {
+    "name": "/model/decoder/layers.12/fc1/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 1118044,
+    "bytes_cur": 1071928,
+    "eloc": {
+      "svd_fp32": 0.20647997474015412,
+      "svd_int8": 0.20651147816407436,
+      "cur_fp32": 0.3783231606857645,
+      "cur_int8": 0.3785583359296839
+    },
+    "quant_damage": {
+      "svd": 3.15034239202483e-05,
+      "cur": 0.00023517524391941658
+    },
+    "secs": 12.764836549758911
+  },
+  {
+    "name": "/model/decoder/layers.12/fc1/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 539032,
+    "bytes_cur": 528784,
+    "eloc": {
+      "svd_fp32": 0.2520769362730418,
+      "svd_int8": 0.2520713300639463,
+      "cur_fp32": 0.46609796120280544,
+      "cur_int8": 0.4663024637843213
+    },
+    "quant_damage": {
+      "svd": -5.6062090955100174e-06,
+      "cur": 0.00020450258151583078
+    },
+    "secs": 12.342211961746216
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/q_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.2805689198978022,
+      "svd_int8": 0.2808236503022067,
+      "cur_fp32": 0.5858421749076924,
+      "cur_int8": 0.5869217299352318
+    },
+    "quant_damage": {
+      "svd": 0.0002547304044044907,
+      "cur": 0.001079555027539425
+    },
+    "secs": 11.318466901779175
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/q_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.47527727738376474,
+      "svd_int8": 0.4753664936432126,
+      "cur_fp32": 0.7515092639645901,
+      "cur_int8": 0.7518877370891806
+    },
+    "quant_damage": {
+      "svd": 8.921625944785516e-05,
+      "cur": 0.00037847312459049487
+    },
+    "secs": 11.080102682113647
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/q_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.5918828436689466,
+      "svd_int8": 0.591956448308317,
+      "cur_fp32": 0.8578126350821561,
+      "cur_int8": 0.8578531933885881
+    },
+    "quant_damage": {
+      "svd": 7.360463937033934e-05,
+      "cur": 4.0558306432014746e-05
+    },
+    "secs": 10.816095113754272
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/k_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.28661278807749524,
+      "svd_int8": 0.2868544278728687,
+      "cur_fp32": 0.5932102932806321,
+      "cur_int8": 0.5941003012626785
+    },
+    "quant_damage": {
+      "svd": 0.00024163979537344948,
+      "cur": 0.0008900079820464146
+    },
+    "secs": 11.201571941375732
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/k_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.4778404521486677,
+      "svd_int8": 0.4779318009028873,
+      "cur_fp32": 0.758022430093127,
+      "cur_int8": 0.7584438422464385
+    },
+    "quant_damage": {
+      "svd": 9.134875421956679e-05,
+      "cur": 0.0004214121533114845
+    },
+    "secs": 10.942143201828003
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/k_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.5979334450305642,
+      "svd_int8": 0.5979953240446397,
+      "cur_fp32": 0.8634505134091084,
+      "cur_int8": 0.8636280132690004
+    },
+    "quant_damage": {
+      "svd": 6.187901407550545e-05,
+      "cur": 0.00017749985989201633
+    },
+    "secs": 11.03270936012268
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/v_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.35369554610555015,
+      "svd_int8": 0.35389523189215427,
+      "cur_fp32": 0.6818946058391244,
+      "cur_int8": 0.6824637836424104
+    },
+    "quant_damage": {
+      "svd": 0.00019968578660412017,
+      "cur": 0.0005691778032860251
+    },
+    "secs": 11.175575733184814
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/v_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.5383769571311773,
+      "svd_int8": 0.538413115132936,
+      "cur_fp32": 0.823473978195618,
+      "cur_int8": 0.823928937272775
+    },
+    "quant_damage": {
+      "svd": 3.6158001758712643e-05,
+      "cur": 0.00045495907715709105
+    },
+    "secs": 10.902787923812866
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/v_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.6444151291342656,
+      "svd_int8": 0.6444459209494227,
+      "cur_fp32": 0.9145811377461364,
+      "cur_int8": 0.9148145912574095
+    },
+    "quant_damage": {
+      "svd": 3.079181515708296e-05,
+      "cur": 0.00023345351127312952
+    },
+    "secs": 10.894020557403564
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/out_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.17488866418494153,
+      "svd_int8": 0.17639116768956933,
+      "cur_fp32": 0.6118972074979745,
+      "cur_int8": 0.6125039127686829
+    },
+    "quant_damage": {
+      "svd": 0.0015025035046278001,
+      "cur": 0.0006067052707083853
+    },
+    "secs": 10.650820255279541
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/out_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.28969340054360926,
+      "svd_int8": 0.2904099372625252,
+      "cur_fp32": 0.8073862321084266,
+      "cur_int8": 0.8078295590437118
+    },
+    "quant_damage": {
+      "svd": 0.0007165367189159166,
+      "cur": 0.00044332693528514877
+    },
+    "secs": 10.392628192901611
+  },
+  {
+    "name": "/model/decoder/layers.23/self_attn/out_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.4170796993917215,
+      "svd_int8": 0.4174078866835684,
+      "cur_fp32": 0.9284401709081677,
+      "cur_int8": 0.9284616162865806
+    },
+    "quant_damage": {
+      "svd": 0.0003281872918468598,
+      "cur": 2.1445378412976446e-05
+    },
+    "secs": 10.366830110549927
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/q_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.3005687199655411,
+      "svd_int8": 0.3007735179577859,
+      "cur_fp32": 0.6171851169721865,
+      "cur_int8": 0.617936661550187
+    },
+    "quant_damage": {
+      "svd": 0.00020479799224482065,
+      "cur": 0.0007515445780005292
+    },
+    "secs": 11.319339990615845
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/q_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.4832033272008295,
+      "svd_int8": 0.4833341771361986,
+      "cur_fp32": 0.7625031980522,
+      "cur_int8": 0.7627932852168157
+    },
+    "quant_damage": {
+      "svd": 0.00013084993536910394,
+      "cur": 0.0002900871646156489
+    },
+    "secs": 11.019648790359497
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/q_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.5917675238462494,
+      "svd_int8": 0.5918059809581376,
+      "cur_fp32": 0.8718727782640564,
+      "cur_int8": 0.8720060353384441
+    },
+    "quant_damage": {
+      "svd": 3.845711188821266e-05,
+      "cur": 0.00013325707438771595
+    },
+    "secs": 11.068947315216064
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/k_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.1366848624960351,
+      "svd_int8": 0.13708680469531173,
+      "cur_fp32": 0.4841151642057119,
+      "cur_int8": 0.4846115976176057
+    },
+    "quant_damage": {
+      "svd": 0.0004019421992766392,
+      "cur": 0.0004964334118938152
+    },
+    "secs": 17.210872888565063
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/k_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.2291356571636977,
+      "svd_int8": 0.2292915572377859,
+      "cur_fp32": 0.6470597457559017,
+      "cur_int8": 0.6474079639249766
+    },
+    "quant_damage": {
+      "svd": 0.00015590007408822215,
+      "cur": 0.00034821816907482095
+    },
+    "secs": 16.900490045547485
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/k_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.33479234045605943,
+      "svd_int8": 0.3350443758177983,
+      "cur_fp32": 0.7303520717883333,
+      "cur_int8": 0.7304646781677018
+    },
+    "quant_damage": {
+      "svd": 0.0002520353617388449,
+      "cur": 0.00011260637936849616
+    },
+    "secs": 16.653216123580933
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/v_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.15653146215001842,
+      "svd_int8": 0.15719148820051562,
+      "cur_fp32": 0.5473549246733297,
+      "cur_int8": 0.5490154399398561
+    },
+    "quant_damage": {
+      "svd": 0.0006600260504971978,
+      "cur": 0.001660515266526441
+    },
+    "secs": 16.98139762878418
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/v_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.24329603322170604,
+      "svd_int8": 0.24365944309879825,
+      "cur_fp32": 0.6774240534185948,
+      "cur_int8": 0.6790482705802566
+    },
+    "quant_damage": {
+      "svd": 0.0003634098770922134,
+      "cur": 0.001624217161661834
+    },
+    "secs": 16.807817459106445
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/v_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.33603009806357775,
+      "svd_int8": 0.33605424957732677,
+      "cur_fp32": 0.8005760913003384,
+      "cur_int8": 0.8008970842203422
+    },
+    "quant_damage": {
+      "svd": 2.4151513749015585e-05,
+      "cur": 0.0003209929200038708
+    },
+    "secs": 16.68468427658081
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/out_proj/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 529408,
+    "bytes_cur": 476056,
+    "eloc": {
+      "svd_fp32": 0.0971229937573344,
+      "svd_int8": 0.10160159011635841,
+      "cur_fp32": 0.31288151625317073,
+      "cur_int8": 0.31340899044794795
+    },
+    "quant_damage": {
+      "svd": 0.00447859635902402,
+      "cur": 0.0005274741947772221
+    },
+    "secs": 5.2674055099487305
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/out_proj/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 279064,
+    "bytes_cur": 262648,
+    "eloc": {
+      "svd_fp32": 0.15352871721559785,
+      "svd_int8": 0.1543504395972882,
+      "cur_fp32": 0.38085447465734046,
+      "cur_int8": 0.38215929488909856
+    },
+    "quant_damage": {
+      "svd": 0.000821722381690343,
+      "cur": 0.001304820231758097
+    },
+    "secs": 5.156594514846802
+  },
+  {
+    "name": "/model/decoder/layers.23/encoder_attn/out_proj/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 135424,
+    "bytes_cur": 131320,
+    "eloc": {
+      "svd_fp32": 0.20443166728581647,
+      "svd_int8": 0.20492736782364798,
+      "cur_fp32": 0.4275532425283269,
+      "cur_int8": 0.4288451087657912
+    },
+    "quant_damage": {
+      "svd": 0.0004957005378315171,
+      "cur": 0.0012918662374643008
+    },
+    "secs": 4.884158611297607
+  },
+  {
+    "name": "/model/decoder/layers.23/fc1/MatMul",
+    "compression": 2.0,
+    "bytes_svd": 2112100,
+    "bytes_cur": 1968628,
+    "eloc": {
+      "svd_fp32": 0.22496494915940718,
+      "svd_int8": 0.22507323201279245,
+      "cur_fp32": 0.454895123965946,
+      "cur_int8": 0.45541667870031227
+    },
+    "quant_damage": {
+      "svd": 0.00010828285338526644,
+      "cur": 0.0005215547343662696
+    },
+    "secs": 13.247294187545776
+  },
+  {
+    "name": "/model/decoder/layers.23/fc1/MatMul",
+    "compression": 3.81,
+    "bytes_svd": 1118044,
+    "bytes_cur": 1071928,
+    "eloc": {
+      "svd_fp32": 0.3183024334753754,
+      "svd_int8": 0.3183722605584248,
+      "cur_fp32": 0.5645928977582281,
+      "cur_int8": 0.5648529925255229
+    },
+    "quant_damage": {
+      "svd": 6.982708304942298e-05,
+      "cur": 0.0002600947672948273
+    },
+    "secs": 12.91578483581543
+  },
+  {
+    "name": "/model/decoder/layers.23/fc1/MatMul",
+    "compression": 8.0,
+    "bytes_svd": 539032,
+    "bytes_cur": 528784,
+    "eloc": {
+      "svd_fp32": 0.3750071004609849,
+      "svd_int8": 0.3750264644810581,
+      "cur_fp32": 0.660631881519582,
+      "cur_int8": 0.6606640138694782
+    },
+    "quant_damage": {
+      "svd": 1.936402007318705e-05,
+      "cur": 3.213234989618563e-05
+    },
+    "secs": 12.41999340057373
+  }
+]

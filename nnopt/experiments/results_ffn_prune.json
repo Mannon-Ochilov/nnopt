@@ -1,0 +1,154 @@
+{
+  "stats": [
+    {
+      "layer": 0,
+      "kept": 2332,
+      "removed": 1764,
+      "fraction": 0.4306640625
+    },
+    {
+      "layer": 1,
+      "kept": 1944,
+      "removed": 2152,
+      "fraction": 0.525390625
+    },
+    {
+      "layer": 2,
+      "kept": 1720,
+      "removed": 2376,
+      "fraction": 0.580078125
+    },
+    {
+      "layer": 3,
+      "kept": 1762,
+      "removed": 2334,
+      "fraction": 0.56982421875
+    },
+    {
+      "layer": 4,
+      "kept": 2018,
+      "removed": 2078,
+      "fraction": 0.50732421875
+    },
+    {
+      "layer": 5,
+      "kept": 2561,
+      "removed": 1535,
+      "fraction": 0.374755859375
+    },
+    {
+      "layer": 6,
+      "kept": 2941,
+      "removed": 1155,
+      "fraction": 0.281982421875
+    },
+    {
+      "layer": 7,
+      "kept": 3219,
+      "removed": 877,
+      "fraction": 0.214111328125
+    },
+    {
+      "layer": 8,
+      "kept": 3048,
+      "removed": 1048,
+      "fraction": 0.255859375
+    },
+    {
+      "layer": 9,
+      "kept": 3370,
+      "removed": 726,
+      "fraction": 0.17724609375
+    },
+    {
+      "layer": 10,
+      "kept": 3649,
+      "removed": 447,
+      "fraction": 0.109130859375
+    },
+    {
+      "layer": 11,
+      "kept": 3903,
+      "removed": 193,
+      "fraction": 0.047119140625
+    },
+    {
+      "layer": 12,
+      "kept": 4070,
+      "removed": 26,
+      "fraction": 0.00634765625
+    },
+    {
+      "layer": 13,
+      "kept": 4086,
+      "removed": 10,
+      "fraction": 0.00244140625
+    },
+    {
+      "layer": 14,
+      "kept": 4092,
+      "removed": 4,
+      "fraction": 0.0009765625
+    },
+    {
+      "layer": 15,
+      "kept": 4096,
+      "removed": 0,
+      "fraction": 0.0
+    },
+    {
+      "layer": 16,
+      "kept": 4095,
+      "removed": 1,
+      "fraction": 0.000244140625
+    },
+    {
+      "layer": 17,
+      "kept": 4096,
+      "removed": 0,
+      "fraction": 0.0
+    },
+    {
+      "layer": 18,
+      "kept": 4096,
+      "removed": 0,
+      "fraction": 0.0
+    },
+    {
+      "layer": 19,
+      "kept": 4096,
+      "removed": 0,
+      "fraction": 0.0
+    },
+    {
+      "layer": 20,
+      "kept": 4096,
+      "removed": 0,
+      "fraction": 0.0
+    },
+    {
+      "layer": 21,
+      "kept": 4093,
+      "removed": 3,
+      "fraction": 0.000732421875
+    },
+    {
+      "layer": 22,
+      "kept": 4092,
+      "removed": 4,
+      "fraction": 0.0009765625
+    },
+    {
+      "layer": 23,
+      "kept": 4094,
+      "removed": 2,
+      "fraction": 0.00048828125
+    }
+  ],
+  "ms": 6766.473150000365,
+  "wer": 1.0,
+  "cer": 1.0,
+  "ffn_params_before": 201326592,
+  "ffn_params_after": 167053312,
+  "encoder_params_after": 267716608
+}

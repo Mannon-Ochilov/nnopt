@@ -1,0 +1,1298 @@
+[
+  {
+    "config": "niqobsiz",
+    "layer": 0,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 19,
+    "share": 0.006184895833333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 0,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 136,
+    "share": 0.044270833333333336,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 0,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 321,
+    "share": 0.1044921875,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 0,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 508,
+    "share": 0.16536458333333334,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 0,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 686,
+    "share": 0.22330729166666666,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 0,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 866,
+    "share": 0.2819010416666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 1,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 3,
+    "share": 0.0009765625,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 1,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 71,
+    "share": 0.023111979166666668,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 1,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 310,
+    "share": 0.10091145833333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 1,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 527,
+    "share": 0.17154947916666666,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 1,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 765,
+    "share": 0.2490234375,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 1,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 980,
+    "share": 0.3190104166666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 2,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 2,
+    "share": 0.0006510416666666666,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 2,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 40,
+    "share": 0.013020833333333334,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 2,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 257,
+    "share": 0.08365885416666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 2,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 460,
+    "share": 0.14973958333333334,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 2,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 753,
+    "share": 0.2451171875,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 2,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1040,
+    "share": 0.3385416666666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 3,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 3,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 55,
+    "share": 0.017903645833333332,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 3,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 190,
+    "share": 0.061848958333333336,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 3,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 541,
+    "share": 0.17610677083333334,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 3,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 952,
+    "share": 0.3098958333333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 3,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1289,
+    "share": 0.4195963541666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 4,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 2,
+    "share": 0.0006510416666666666,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 4,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 68,
+    "share": 0.022135416666666668,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 4,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 466,
+    "share": 0.15169270833333334,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 4,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 986,
+    "share": 0.3209635416666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 4,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 1072,
+    "share": 0.3489583333333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 4,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1437,
+    "share": 0.4677734375,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 5,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 5,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 14,
+    "share": 0.004557291666666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 5,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 116,
+    "share": 0.037760416666666664,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 5,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 215,
+    "share": 0.06998697916666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 5,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 504,
+    "share": 0.1640625,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 5,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 875,
+    "share": 0.2848307291666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 6,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 6,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 7,
+    "share": 0.0022786458333333335,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 6,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 48,
+    "share": 0.015625,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 6,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 186,
+    "share": 0.060546875,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 6,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 471,
+    "share": 0.1533203125,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 6,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 816,
+    "share": 0.265625,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 7,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 7,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 3,
+    "share": 0.0009765625,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 7,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 59,
+    "share": 0.019205729166666668,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 7,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 105,
+    "share": 0.0341796875,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 7,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 337,
+    "share": 0.10970052083333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 7,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 647,
+    "share": 0.21061197916666666,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 8,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 8,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 4,
+    "share": 0.0013020833333333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 8,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 75,
+    "share": 0.0244140625,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 8,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 302,
+    "share": 0.09830729166666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 8,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 700,
+    "share": 0.22786458333333334,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 8,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 713,
+    "share": 0.23209635416666666,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 9,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 2,
+    "share": 0.0006510416666666666,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 9,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 5,
+    "share": 0.0016276041666666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 9,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 123,
+    "share": 0.0400390625,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 9,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 556,
+    "share": 0.18098958333333334,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 9,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 1030,
+    "share": 0.3352864583333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 9,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1130,
+    "share": 0.3678385416666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 10,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 1,
+    "share": 0.0003255208333333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 10,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 1,
+    "share": 0.0003255208333333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 10,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 305,
+    "share": 0.09928385416666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 10,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 829,
+    "share": 0.2698567708333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 10,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 1325,
+    "share": 0.4313151041666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 10,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1641,
+    "share": 0.5341796875,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 11,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 1,
+    "share": 0.0003255208333333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 11,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 23,
+    "share": 0.007486979166666667,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 11,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 648,
+    "share": 0.2109375,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 11,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 1218,
+    "share": 0.396484375,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 11,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 1273,
+    "share": 0.4143880208333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobsiz",
+    "layer": 11,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1513,
+    "share": 0.4925130208333333,
+    "rows": 15360
+  },
+  {
+    "config": "niqobli",
+    "layer": 0,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 0,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 8,
+    "share": 0.0026041666666666665,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 0,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 25,
+    "share": 0.008138020833333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 0,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 43,
+    "share": 0.013997395833333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 0,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 83,
+    "share": 0.027018229166666668,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 0,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 105,
+    "share": 0.0341796875,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 1,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 1,
+    "share": 0.0003255208333333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 1,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 8,
+    "share": 0.0026041666666666665,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 1,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 26,
+    "share": 0.008463541666666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 1,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 46,
+    "share": 0.014973958333333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 1,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 105,
+    "share": 0.0341796875,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 1,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 238,
+    "share": 0.07747395833333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 2,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 2,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 1,
+    "share": 0.0003255208333333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 2,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 14,
+    "share": 0.004557291666666667,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 2,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 34,
+    "share": 0.011067708333333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 2,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 83,
+    "share": 0.027018229166666668,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 2,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 190,
+    "share": 0.061848958333333336,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 3,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 3,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 9,
+    "share": 0.0029296875,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 3,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 41,
+    "share": 0.013346354166666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 3,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 86,
+    "share": 0.027994791666666668,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 3,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 173,
+    "share": 0.056315104166666664,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 3,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 177,
+    "share": 0.0576171875,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 4,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 4,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 13,
+    "share": 0.004231770833333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 4,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 45,
+    "share": 0.0146484375,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 4,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 117,
+    "share": 0.0380859375,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 4,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 284,
+    "share": 0.09244791666666667,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 4,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 529,
+    "share": 0.17220052083333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 5,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 5,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 4,
+    "share": 0.0013020833333333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 5,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 26,
+    "share": 0.008463541666666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 5,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 53,
+    "share": 0.017252604166666668,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 5,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 113,
+    "share": 0.036783854166666664,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 5,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 256,
+    "share": 0.08333333333333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 6,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 6,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 6,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 12,
+    "share": 0.00390625,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 6,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 64,
+    "share": 0.020833333333333332,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 6,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 205,
+    "share": 0.06673177083333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 6,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 409,
+    "share": 0.13313802083333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 7,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 7,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 1,
+    "share": 0.0003255208333333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 7,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 7,
+    "share": 0.0022786458333333335,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 7,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 29,
+    "share": 0.009440104166666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 7,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 170,
+    "share": 0.055338541666666664,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 7,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 232,
+    "share": 0.07552083333333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 8,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 8,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 2,
+    "share": 0.0006510416666666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 8,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 11,
+    "share": 0.0035807291666666665,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 8,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 97,
+    "share": 0.031575520833333336,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 8,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 345,
+    "share": 0.1123046875,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 8,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 731,
+    "share": 0.23795572916666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 9,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 2,
+    "share": 0.0006510416666666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 9,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 5,
+    "share": 0.0016276041666666667,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 9,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 28,
+    "share": 0.009114583333333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 9,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 385,
+    "share": 0.12532552083333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 9,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 1041,
+    "share": 0.3388671875,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 9,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1560,
+    "share": 0.5078125,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 10,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 1,
+    "share": 0.0003255208333333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 10,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 2,
+    "share": 0.0006510416666666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 10,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 20,
+    "share": 0.006510416666666667,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 10,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 487,
+    "share": 0.15852864583333334,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 10,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 1340,
+    "share": 0.4361979166666667,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 10,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1704,
+    "share": 0.5546875,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 11,
+    "tau": 0.99,
+    "channels": 3072,
+    "merged": 2,
+    "share": 0.0006510416666666666,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 11,
+    "tau": 0.95,
+    "channels": 3072,
+    "merged": 16,
+    "share": 0.005208333333333333,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 11,
+    "tau": 0.9,
+    "channels": 3072,
+    "merged": 380,
+    "share": 0.12369791666666667,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 11,
+    "tau": 0.85,
+    "channels": 3072,
+    "merged": 842,
+    "share": 0.2740885416666667,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 11,
+    "tau": 0.8,
+    "channels": 3072,
+    "merged": 1155,
+    "share": 0.3759765625,
+    "rows": 2228
+  },
+  {
+    "config": "niqobli",
+    "layer": 11,
+    "tau": 0.75,
+    "channels": 3072,
+    "merged": 1354,
+    "share": 0.4407552083333333,
+    "rows": 2228
+  }
+]

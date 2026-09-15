@@ -1,0 +1,56 @@
+[
+  {
+    "layer": 0,
+    "spearman_wn_hn": 0.8793874942053106,
+    "overlap": 0.8819938962360122,
+    "chance": 0.24,
+    "worst_removed_mag": 0.06254061109865917,
+    "worst_removed_ctr": 0.01793556520140687,
+    "median_contrib": 0.21774044254539762
+  },
+  {
+    "layer": 2,
+    "spearman_wn_hn": 0.9273134146682533,
+    "overlap": 0.9450661241098678,
+    "chance": 0.24,
+    "worst_removed_mag": 0.002266035280231309,
+    "worst_removed_ctr": 0.001962813834602139,
+    "median_contrib": 0.0036554063862967437
+  },
+  {
+    "layer": 5,
+    "spearman_wn_hn": 0.8038341568972786,
+    "overlap": 0.9593082400813835,
+    "chance": 0.24,
+    "worst_removed_mag": 0.00402311207310543,
+    "worst_removed_ctr": 0.0033820481870486504,
+    "median_contrib": 1.2401245839585873
+  },
+  {
+    "layer": 8,
+    "spearman_wn_hn": 0.5747314314081441,
+    "overlap": 0.9857578840284842,
+    "chance": 0.24,
+    "worst_removed_mag": 0.07878486935740038,
+    "worst_removed_ctr": 0.06465959866358315,
+    "median_contrib": 1.6547598775615318
+  },
+  {
+    "layer": 16,
+    "spearman_wn_hn": -0.4306906577564795,
+    "overlap": 0.12410986775178026,
+    "chance": 0.24,
+    "worst_removed_mag": 15.738854903590873,
+    "worst_removed_ctr": 0.875148820677972,
+    "median_contrib": 1.5229047193347665
+  },
+  {
+    "layer": 23,
+    "spearman_wn_hn": -0.2764828238938011,
+    "overlap": 0.28382502543234994,
+    "chance": 0.24,
+    "worst_removed_mag": 99.41705654402125,
+    "worst_removed_ctr": 2.2745884870649804,
+    "median_contrib": 3.633883710420365
+  }
+]

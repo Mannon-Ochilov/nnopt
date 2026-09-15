@@ -1,0 +1,1250 @@
+[
+  {
+    "layer": 0,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 0,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 23,
+    "share": 0.002662037037037037,
+    "rows": 2048
+  },
+  {
+    "layer": 0,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 45,
+    "share": 0.005208333333333333,
+    "rows": 2048
+  },
+  {
+    "layer": 0,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 103,
+    "share": 0.011921296296296296,
+    "rows": 2048
+  },
+  {
+    "layer": 0,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 177,
+    "share": 0.02048611111111111,
+    "rows": 2048
+  },
+  {
+    "layer": 0,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 285,
+    "share": 0.03298611111111111,
+    "rows": 2048
+  },
+  {
+    "layer": 1,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 1,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 1,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 15,
+    "share": 0.001736111111111111,
+    "rows": 2048
+  },
+  {
+    "layer": 1,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 32,
+    "share": 0.003703703703703704,
+    "rows": 2048
+  },
+  {
+    "layer": 1,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 54,
+    "share": 0.00625,
+    "rows": 2048
+  },
+  {
+    "layer": 1,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 109,
+    "share": 0.012615740740740742,
+    "rows": 2048
+  },
+  {
+    "layer": 2,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 2,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 2,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 4,
+    "share": 0.000462962962962963,
+    "rows": 2048
+  },
+  {
+    "layer": 2,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 11,
+    "share": 0.0012731481481481483,
+    "rows": 2048
+  },
+  {
+    "layer": 2,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 31,
+    "share": 0.003587962962962963,
+    "rows": 2048
+  },
+  {
+    "layer": 2,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 57,
+    "share": 0.006597222222222222,
+    "rows": 2048
+  },
+  {
+    "layer": 3,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 3,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 3,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 3,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 5,
+    "share": 0.0005787037037037037,
+    "rows": 2048
+  },
+  {
+    "layer": 3,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 14,
+    "share": 0.0016203703703703703,
+    "rows": 2048
+  },
+  {
+    "layer": 3,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 24,
+    "share": 0.002777777777777778,
+    "rows": 2048
+  },
+  {
+    "layer": 4,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 4,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 4,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 4,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 4,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 5,
+    "share": 0.0005787037037037037,
+    "rows": 2048
+  },
+  {
+    "layer": 4,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 15,
+    "share": 0.001736111111111111,
+    "rows": 2048
+  },
+  {
+    "layer": 5,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 5,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 5,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 5,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 5,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 5,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 6,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 6,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 6,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 6,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 6,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 6,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 5,
+    "share": 0.0005787037037037037,
+    "rows": 2048
+  },
+  {
+    "layer": 7,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 7,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 7,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 7,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 7,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 7,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 4,
+    "share": 0.000462962962962963,
+    "rows": 2048
+  },
+  {
+    "layer": 8,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 8,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 8,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 8,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 8,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 8,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 9,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 9,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 9,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 9,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 9,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 9,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 10,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 10,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 10,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 10,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 10,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 10,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 11,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 11,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 11,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 11,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 11,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 11,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 12,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 12,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 12,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 12,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 12,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 12,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 13,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 13,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 13,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 13,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 13,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 13,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 14,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 14,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 14,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 14,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 14,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 14,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 5,
+    "share": 0.0005787037037037037,
+    "rows": 2048
+  },
+  {
+    "layer": 15,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 15,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 15,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 15,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 15,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 4,
+    "share": 0.000462962962962963,
+    "rows": 2048
+  },
+  {
+    "layer": 15,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 7,
+    "share": 0.0008101851851851852,
+    "rows": 2048
+  },
+  {
+    "layer": 16,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 16,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 16,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 16,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 16,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 8,
+    "share": 0.000925925925925926,
+    "rows": 2048
+  },
+  {
+    "layer": 16,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 10,
+    "share": 0.0011574074074074073,
+    "rows": 2048
+  },
+  {
+    "layer": 17,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 17,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 17,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 17,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 17,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 11,
+    "share": 0.0012731481481481483,
+    "rows": 2048
+  },
+  {
+    "layer": 17,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 15,
+    "share": 0.001736111111111111,
+    "rows": 2048
+  },
+  {
+    "layer": 18,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 18,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 18,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 18,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 4,
+    "share": 0.000462962962962963,
+    "rows": 2048
+  },
+  {
+    "layer": 18,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 6,
+    "share": 0.0006944444444444445,
+    "rows": 2048
+  },
+  {
+    "layer": 18,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 13,
+    "share": 0.0015046296296296296,
+    "rows": 2048
+  },
+  {
+    "layer": 19,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 19,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 19,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 19,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 9,
+    "share": 0.0010416666666666667,
+    "rows": 2048
+  },
+  {
+    "layer": 19,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 12,
+    "share": 0.001388888888888889,
+    "rows": 2048
+  },
+  {
+    "layer": 19,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 14,
+    "share": 0.0016203703703703703,
+    "rows": 2048
+  },
+  {
+    "layer": 20,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 20,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 20,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 20,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 5,
+    "share": 0.0005787037037037037,
+    "rows": 2048
+  },
+  {
+    "layer": 20,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 6,
+    "share": 0.0006944444444444445,
+    "rows": 2048
+  },
+  {
+    "layer": 20,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 11,
+    "share": 0.0012731481481481483,
+    "rows": 2048
+  },
+  {
+    "layer": 21,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 21,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 21,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 21,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 21,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 1,
+    "share": 0.00011574074074074075,
+    "rows": 2048
+  },
+  {
+    "layer": 21,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 2,
+    "share": 0.0002314814814814815,
+    "rows": 2048
+  },
+  {
+    "layer": 22,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 22,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 22,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 22,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 22,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 6,
+    "share": 0.0006944444444444445,
+    "rows": 2048
+  },
+  {
+    "layer": 22,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 9,
+    "share": 0.0010416666666666667,
+    "rows": 2048
+  },
+  {
+    "layer": 23,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 23,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 23,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 23,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 8,
+    "share": 0.000925925925925926,
+    "rows": 2048
+  },
+  {
+    "layer": 23,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 11,
+    "share": 0.0012731481481481483,
+    "rows": 2048
+  },
+  {
+    "layer": 23,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 18,
+    "share": 0.0020833333333333333,
+    "rows": 2048
+  },
+  {
+    "layer": 24,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 24,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 24,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 11,
+    "share": 0.0012731481481481483,
+    "rows": 2048
+  },
+  {
+    "layer": 24,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 30,
+    "share": 0.003472222222222222,
+    "rows": 2048
+  },
+  {
+    "layer": 24,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 54,
+    "share": 0.00625,
+    "rows": 2048
+  },
+  {
+    "layer": 24,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 72,
+    "share": 0.008333333333333333,
+    "rows": 2048
+  },
+  {
+    "layer": 25,
+    "tau": 0.99,
+    "channels": 8640,
+    "merged": 0,
+    "share": 0.0,
+    "rows": 2048
+  },
+  {
+    "layer": 25,
+    "tau": 0.95,
+    "channels": 8640,
+    "merged": 3,
+    "share": 0.00034722222222222224,
+    "rows": 2048
+  },
+  {
+    "layer": 25,
+    "tau": 0.9,
+    "channels": 8640,
+    "merged": 14,
+    "share": 0.0016203703703703703,
+    "rows": 2048
+  },
+  {
+    "layer": 25,
+    "tau": 0.85,
+    "channels": 8640,
+    "merged": 36,
+    "share": 0.004166666666666667,
+    "rows": 2048
+  },
+  {
+    "layer": 25,
+    "tau": 0.8,
+    "channels": 8640,
+    "merged": 76,
+    "share": 0.008796296296296297,
+    "rows": 2048
+  },
+  {
+    "layer": 25,
+    "tau": 0.75,
+    "channels": 8640,
+    "merged": 117,
+    "share": 0.013541666666666667,
+    "rows": 2048
+  }
+]

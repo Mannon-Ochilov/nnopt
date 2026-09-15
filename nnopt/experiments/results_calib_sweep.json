@@ -1,0 +1,326 @@
+[
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 409,
+    "fit_rows": 256,
+    "eloc_fit": 1.2583773458116232e-08,
+    "eloc_eval": 0.006123978480155453,
+    "ratio_rows_rank": 0.6259168704156479,
+    "eloc_plain_svd": 0.012748446514883043
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 409,
+    "fit_rows": 512,
+    "eloc_fit": 3.111686315148958e-05,
+    "eloc_eval": 0.010686346491573108,
+    "ratio_rows_rank": 1.2518337408312958,
+    "eloc_plain_svd": 0.012748446514883043
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 409,
+    "fit_rows": 1024,
+    "eloc_fit": 0.00028343610380822333,
+    "eloc_eval": 0.00582729413297451,
+    "ratio_rows_rank": 2.5036674816625917,
+    "eloc_plain_svd": 0.012748446514883043
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 409,
+    "fit_rows": 2048,
+    "eloc_fit": 0.0009573254009320104,
+    "eloc_eval": 0.0026999727307020546,
+    "ratio_rows_rank": 5.007334963325183,
+    "eloc_plain_svd": 0.012748446514883043
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 409,
+    "fit_rows": 4096,
+    "eloc_fit": 0.0012791775156192047,
+    "eloc_eval": 0.002043464369843174,
+    "ratio_rows_rank": 10.014669926650367,
+    "eloc_plain_svd": 0.012748446514883043
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 409,
+    "fit_rows": 8192,
+    "eloc_fit": 0.0014410858273083056,
+    "eloc_eval": 0.001783208171630817,
+    "ratio_rows_rank": 20.029339853300733,
+    "eloc_plain_svd": 0.012748446514883043
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 200,
+    "fit_rows": 256,
+    "eloc_fit": 0.0005085972398320174,
+    "eloc_eval": 0.03198083608815365,
+    "ratio_rows_rank": 1.28,
+    "eloc_plain_svd": 0.03658654377196057
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 200,
+    "fit_rows": 512,
+    "eloc_fit": 0.0035660924299501296,
+    "eloc_eval": 0.022298458304119716,
+    "ratio_rows_rank": 2.56,
+    "eloc_plain_svd": 0.03658654377196057
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 200,
+    "fit_rows": 1024,
+    "eloc_fit": 0.007135513357403596,
+    "eloc_eval": 0.01643330102804765,
+    "ratio_rows_rank": 5.12,
+    "eloc_plain_svd": 0.03658654377196057
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 200,
+    "fit_rows": 2048,
+    "eloc_fit": 0.00910656938269776,
+    "eloc_eval": 0.013448672412117888,
+    "ratio_rows_rank": 10.24,
+    "eloc_plain_svd": 0.03658654377196057
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 200,
+    "fit_rows": 4096,
+    "eloc_fit": 0.010124410749436357,
+    "eloc_eval": 0.012232845677695644,
+    "ratio_rows_rank": 20.48,
+    "eloc_plain_svd": 0.03658654377196057
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 200,
+    "fit_rows": 8192,
+    "eloc_fit": 0.01060541954359424,
+    "eloc_eval": 0.01155656944145413,
+    "ratio_rows_rank": 40.96,
+    "eloc_plain_svd": 0.03658654377196057
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 128,
+    "fit_rows": 256,
+    "eloc_fit": 0.00748667193042502,
+    "eloc_eval": 0.03962467899500225,
+    "ratio_rows_rank": 2.0,
+    "eloc_plain_svd": 0.0589973092501955
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 128,
+    "fit_rows": 512,
+    "eloc_fit": 0.014661534938880259,
+    "eloc_eval": 0.03367206675502062,
+    "ratio_rows_rank": 4.0,
+    "eloc_plain_svd": 0.0589973092501955
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 128,
+    "fit_rows": 1024,
+    "eloc_fit": 0.018741657778121167,
+    "eloc_eval": 0.029366049335150357,
+    "ratio_rows_rank": 8.0,
+    "eloc_plain_svd": 0.0589973092501955
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 128,
+    "fit_rows": 2048,
+    "eloc_fit": 0.021297054335578682,
+    "eloc_eval": 0.026939509065913882,
+    "ratio_rows_rank": 16.0,
+    "eloc_plain_svd": 0.0589973092501955
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 128,
+    "fit_rows": 4096,
+    "eloc_fit": 0.022667483203985907,
+    "eloc_eval": 0.02558154071765897,
+    "ratio_rows_rank": 32.0,
+    "eloc_plain_svd": 0.0589973092501955
+  },
+  {
+    "op": "/layers.0/fc1/MatMul",
+    "rank": 128,
+    "fit_rows": 8192,
+    "eloc_fit": 0.023389046017692806,
+    "eloc_eval": 0.024808648907218626,
+    "ratio_rows_rank": 64.0,
+    "eloc_plain_svd": 0.0589973092501955
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 409,
+    "fit_rows": 256,
+    "eloc_fit": 2.8264829568004962e-08,
+    "eloc_eval": 0.043551545148872536,
+    "ratio_rows_rank": 0.6259168704156479,
+    "eloc_plain_svd": 0.12838831642327095
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 409,
+    "fit_rows": 512,
+    "eloc_fit": 0.00035321400203507054,
+    "eloc_eval": 0.046239432007381266,
+    "ratio_rows_rank": 1.2518337408312958,
+    "eloc_plain_svd": 0.12838831642327095
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 409,
+    "fit_rows": 1024,
+    "eloc_fit": 0.0013073245635125152,
+    "eloc_eval": 0.035596108980518175,
+    "ratio_rows_rank": 2.5036674816625917,
+    "eloc_plain_svd": 0.12838831642327095
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 409,
+    "fit_rows": 2048,
+    "eloc_fit": 0.0063737300265369,
+    "eloc_eval": 0.02835390880137249,
+    "ratio_rows_rank": 5.007334963325183,
+    "eloc_plain_svd": 0.12838831642327095
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 409,
+    "fit_rows": 4096,
+    "eloc_fit": 0.011511426565164806,
+    "eloc_eval": 0.021986686667225985,
+    "ratio_rows_rank": 10.014669926650367,
+    "eloc_plain_svd": 0.12838831642327095
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 409,
+    "fit_rows": 8192,
+    "eloc_fit": 0.013643760323805425,
+    "eloc_eval": 0.018999207939438247,
+    "ratio_rows_rank": 20.029339853300733,
+    "eloc_plain_svd": 0.12838831642327095
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 200,
+    "fit_rows": 256,
+    "eloc_fit": 0.0014548956827584272,
+    "eloc_eval": 0.09407126719902134,
+    "ratio_rows_rank": 1.28,
+    "eloc_plain_svd": 0.36224343590926505
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 200,
+    "fit_rows": 512,
+    "eloc_fit": 0.007233303041408656,
+    "eloc_eval": 0.07802110734105427,
+    "ratio_rows_rank": 2.56,
+    "eloc_plain_svd": 0.36224343590926505
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 200,
+    "fit_rows": 1024,
+    "eloc_fit": 0.02658893220410312,
+    "eloc_eval": 0.06344808996185701,
+    "ratio_rows_rank": 5.12,
+    "eloc_plain_svd": 0.36224343590926505
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 200,
+    "fit_rows": 2048,
+    "eloc_fit": 0.034903803559177195,
+    "eloc_eval": 0.05641091108229782,
+    "ratio_rows_rank": 10.24,
+    "eloc_plain_svd": 0.36224343590926505
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 200,
+    "fit_rows": 4096,
+    "eloc_fit": 0.04012150622048997,
+    "eloc_eval": 0.050854248541406605,
+    "ratio_rows_rank": 20.48,
+    "eloc_plain_svd": 0.36224343590926505
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 200,
+    "fit_rows": 8192,
+    "eloc_fit": 0.0419537853956703,
+    "eloc_eval": 0.048448504659931314,
+    "ratio_rows_rank": 40.96,
+    "eloc_plain_svd": 0.36224343590926505
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 128,
+    "fit_rows": 256,
+    "eloc_fit": 0.0152551350549585,
+    "eloc_eval": 0.12280383528587112,
+    "ratio_rows_rank": 2.0,
+    "eloc_plain_svd": 0.5796254480648436
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 128,
+    "fit_rows": 512,
+    "eloc_fit": 0.043011551949051874,
+    "eloc_eval": 0.10363672530641439,
+    "ratio_rows_rank": 4.0,
+    "eloc_plain_svd": 0.5796254480648436
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 128,
+    "fit_rows": 1024,
+    "eloc_fit": 0.06164195760836731,
+    "eloc_eval": 0.09063159514875743,
+    "ratio_rows_rank": 8.0,
+    "eloc_plain_svd": 0.5796254480648436
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 128,
+    "fit_rows": 2048,
+    "eloc_fit": 0.06784661222789289,
+    "eloc_eval": 0.08516052572245704,
+    "ratio_rows_rank": 16.0,
+    "eloc_plain_svd": 0.5796254480648436
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 128,
+    "fit_rows": 4096,
+    "eloc_fit": 0.0721045058242078,
+    "eloc_eval": 0.08079079455081617,
+    "ratio_rows_rank": 32.0,
+    "eloc_plain_svd": 0.5796254480648436
+  },
+  {
+    "op": "/layers.0/fc2/MatMul",
+    "rank": 128,
+    "fit_rows": 8192,
+    "eloc_fit": 0.0730028976599268,
+    "eloc_eval": 0.07894320667552396,
+    "ratio_rows_rank": 64.0,
+    "eloc_plain_svd": 0.5796254480648436
+  }
+]

@@ -1,0 +1,80 @@
+[
+  {
+    "variant": "dense FP32",
+    "file": "dense_fp32.onnx",
+    "file_bytes": 16777330,
+    "ms_per_iter": 121.846,
+    "cpi": 0.637,
+    "memory_bound": 8.8,
+    "l1_bound": 0.4,
+    "l2_bound": 2.5,
+    "l3_bound": 2.7,
+    "dram_bound": 2.9,
+    "elapsed": 21.276
+  },
+  {
+    "variant": "dense INT8",
+    "file": "dense_int8.onnx",
+    "file_bytes": 4194940,
+    "ms_per_iter": 33.964,
+    "cpi": 0.668,
+    "memory_bound": 12.7,
+    "l1_bound": 1.2,
+    "l2_bound": 1.9,
+    "l3_bound": 2.4,
+    "dram_bound": 6.5,
+    "elapsed": 8.476
+  },
+  {
+    "variant": "SVD r=409 + INT8",
+    "file": "svd_actaw_r409_int8.onnx",
+    "file_bytes": 2095259,
+    "ms_per_iter": 18.521,
+    "cpi": 0.648,
+    "memory_bound": 12.2,
+    "l1_bound": 0.3,
+    "l2_bound": 2.8,
+    "l3_bound": 4.0,
+    "dram_bound": 4.8,
+    "elapsed": 8.386
+  },
+  {
+    "variant": "SVD r=200 + INT8",
+    "file": "svd_actaw_r200_int8.onnx",
+    "file_bytes": 1025179,
+    "ms_per_iter": 9.964,
+    "cpi": 0.603,
+    "memory_bound": 9.8,
+    "l1_bound": 0.5,
+    "l2_bound": 3.6,
+    "l3_bound": 1.9,
+    "dram_bound": 3.9,
+    "elapsed": 8.319
+  },
+  {
+    "variant": "SVD r=128 + INT8",
+    "file": "svd_actaw_r128_int8.onnx",
+    "file_bytes": 656539,
+    "ms_per_iter": 7.623,
+    "cpi": 0.62,
+    "memory_bound": 18.3,
+    "l1_bound": 5.2,
+    "l2_bound": 4.1,
+    "l3_bound": 1.0,
+    "dram_bound": 9.2,
+    "elapsed": 8.375
+  },
+  {
+    "variant": "SVD r=80 + INT8",
+    "file": "svd_actaw_r80_int8.onnx",
+    "file_bytes": 410776,
+    "ms_per_iter": 5.017,
+    "cpi": 0.548,
+    "memory_bound": 15.8,
+    "l1_bound": 4.3,
+    "l2_bound": 3.1,
+    "l3_bound": 1.4,
+    "dram_bound": 7.0,
+    "elapsed": 8.293
+  }
+]

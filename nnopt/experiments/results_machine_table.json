@@ -1,0 +1,162 @@
+{
+  "nisbiy eps=0.05": [
+    {
+      "machine": "Raspberry Pi 5 (BCM2712)",
+      "l3": 2.0,
+      "note": "4 x Cortex-A76, umumiy",
+      "budget_mib": 1.4,
+      "pick": "t99",
+      "pick_wer": 0.18326229326229324,
+      "pick_miss_mib": 336056.67590866087,
+      "int8_miss_mib": 385300.45270690916,
+      "gain": 1.1465341423886266,
+      "fits": false,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "Intel N100 (Alder Lake-N)",
+      "l3": 6.0,
+      "note": "4 yadro, umumiy",
+      "budget_mib": 4.199999999999999,
+      "pick": "t99",
+      "pick_wer": 0.18326229326229324,
+      "pick_miss_mib": 235323.8759086609,
+      "int8_miss_mib": 284567.6527069092,
+      "gain": 1.209259585786195,
+      "fits": false,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "Core i5-1235U",
+      "l3": 12.0,
+      "note": "2P + 8E, umumiy",
+      "budget_mib": 8.399999999999999,
+      "pick": "t99",
+      "pick_wer": 0.18326229326229324,
+      "pick_miss_mib": 88383.4848480225,
+      "int8_miss_mib": 133468.45270690924,
+      "gain": 1.510106248202494,
+      "fits": false,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "Tiger Lake H (bizniki)",
+      "l3": 24.0,
+      "note": "16 mantiqiy yadro, o'lchangan",
+      "budget_mib": 16.799999999999997,
+      "pick": "t99",
+      "pick_wer": 0.18326229326229324,
+      "pick_miss_mib": 642.9610223770142,
+      "int8_miss_mib": 675.7902069091797,
+      "gain": 1.0510593696812238,
+      "fits": true,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "Ryzen 7 5800X",
+      "l3": 32.0,
+      "note": "8 yadro, bitta CCD, umumiy",
+      "budget_mib": 22.4,
+      "pick": "t99",
+      "pick_wer": 0.18326229326229324,
+      "pick_miss_mib": 642.9610223770142,
+      "int8_miss_mib": 675.7902069091797,
+      "gain": 1.0510593696812238,
+      "fits": true,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "EPYC 7773X (Milan-X)",
+      "l3": 96.0,
+      "note": "CCD boshiga; jami 768 MiB, global emas",
+      "budget_mib": 67.19999999999999,
+      "pick": "t99",
+      "pick_wer": 0.18326229326229324,
+      "pick_miss_mib": 642.9610223770142,
+      "int8_miss_mib": 675.7902069091797,
+      "gain": 1.0510593696812238,
+      "fits": true,
+      "blind_int8_within_budget": true
+    }
+  ],
+  "mutlaq d=0.05": [
+    {
+      "machine": "Raspberry Pi 5 (BCM2712)",
+      "l3": 2.0,
+      "note": "4 x Cortex-A76, umumiy",
+      "budget_mib": 1.4,
+      "pick": "t93",
+      "pick_wer": 0.2179253524253524,
+      "pick_miss_mib": 306960.6218315124,
+      "int8_miss_mib": 385300.45270690916,
+      "gain": 1.2552113375584595,
+      "fits": false,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "Intel N100 (Alder Lake-N)",
+      "l3": 6.0,
+      "note": "4 yadro, umumiy",
+      "budget_mib": 4.199999999999999,
+      "pick": "t93",
+      "pick_wer": 0.2179253524253524,
+      "pick_miss_mib": 206227.82183151247,
+      "int8_miss_mib": 284567.6527069092,
+      "gain": 1.3798703306840925,
+      "fits": false,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "Core i5-1235U",
+      "l3": 12.0,
+      "note": "2P + 8E, umumiy",
+      "budget_mib": 8.399999999999999,
+      "pick": "t93",
+      "pick_wer": 0.2179253524253524,
+      "pick_miss_mib": 73879.08992214207,
+      "int8_miss_mib": 133468.45270690924,
+      "gain": 1.8065795456815426,
+      "fits": false,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "Tiger Lake H (bizniki)",
+      "l3": 24.0,
+      "note": "16 mantiqiy yadro, o'lchangan",
+      "budget_mib": 16.799999999999997,
+      "pick": "t93",
+      "pick_wer": 0.2179253524253524,
+      "pick_miss_mib": 623.5636529922485,
+      "int8_miss_mib": 675.7902069091797,
+      "gain": 1.083754968183786,
+      "fits": true,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "Ryzen 7 5800X",
+      "l3": 32.0,
+      "note": "8 yadro, bitta CCD, umumiy",
+      "budget_mib": 22.4,
+      "pick": "t93",
+      "pick_wer": 0.2179253524253524,
+      "pick_miss_mib": 623.5636529922485,
+      "int8_miss_mib": 675.7902069091797,
+      "gain": 1.083754968183786,
+      "fits": true,
+      "blind_int8_within_budget": true
+    },
+    {
+      "machine": "EPYC 7773X (Milan-X)",
+      "l3": 96.0,
+      "note": "CCD boshiga; jami 768 MiB, global emas",
+      "budget_mib": 67.19999999999999,
+      "pick": "t93",
+      "pick_wer": 0.2179253524253524,
+      "pick_miss_mib": 623.5636529922485,
+      "int8_miss_mib": 675.7902069091797,
+      "gain": 1.083754968183786,
+      "fits": true,
+      "blind_int8_within_budget": true
+    }
+  ]
+}

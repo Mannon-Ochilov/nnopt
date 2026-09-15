@@ -1,0 +1,22 @@
+# Og'ir artefaktlar — omborga kirmaydi
+nnopt/models/
+nnopt/.venv/
+nnopt/figures/*.pdf
+
+# Python keshi
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Sessiya loglari va vaqtinchalik fayllar
+*.log
+nnopt/*.log
+scratchpad_*
+night_*
+
+# Avtomatik zaxira nusxalar (autonumber.py yaratadi)
+nnopt/experiments/*.bak_*
+
+# OS
+Thumbs.db
+desktop.ini
